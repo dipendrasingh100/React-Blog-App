@@ -1,68 +1,84 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../css/home.css";
 import Cover from "../components/Cover";
+import Subtitle from "../components/Subtitle";
+import TileWithImage from "../components/TileWithImage";
+import { ContextData } from "../components/ContextData";
+import MainCover from "../components/MainCover";
+
+function generateRandomNumbers(n) {
+  const min = 1;
+  const max = 35;
+  const randomNumbers = [];
+
+  for (let i = 0; i < n; i++) {
+    const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+    randomNumbers.push(randomNumber);
+  }
+
+  return randomNumbers;
+}
 
 const Home = () => {
+  const data = useContext(ContextData);
+  const first3_cover = generateRandomNumbers(3);
+  const latest_tile = generateRandomNumbers(3);
+
   return (
     <>
       <div className="thumb-cont">
-        <div className="main-img"></div>
-        <Cover cls="img1" />
-        <Cover cls="img2" />
-      </div>
-      <div className="subtitle">
-        <span>The Latest</span>
-        <div className="bottom-line"></div>
+        <MainCover
+          title={data[first3_cover[0]].title}
+          p_date={data[first3_cover[0]].post_date}
+          image={data[first3_cover[0]].thumb}
+          genre={data[first3_cover[0]].genre}
+        />
+        <Cover
+          cls="img1"
+          title={data[first3_cover[1]].title}
+          p_date={data[first3_cover[1]].post_date}
+          image={data[first3_cover[1]].thumb}
+          genre={data[first3_cover[1]].genre}
+        />
+        <Cover
+          cls="img2"
+          title={data[first3_cover[2]].title}
+          p_date={data[first3_cover[2]].post_date}
+          image={data[first3_cover[2]].thumb}
+          genre={data[first3_cover[2]].genre}
+        />
       </div>
 
+      <Subtitle title="The Latest" />
+
       <div className="himgs-container">
-        <div className="tile">
-          <div className="cover2"></div>
-          <div className="text-cont">
-            <div className="subheading">Joshua Tree Overnight Adventure</div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis animi, iure soluta asperiores sapiente libero illo
-              deserunt dolore dolores quas fugit molestiae aliquam eius!
-            </p>
-          </div>
-          <div className="tile-foot">
-            <span>Travel</span> / August 21 2017
-          </div>
-        </div>
-        <div className="tile">
-          <div className="cover2"></div>
-          <div className="text-cont">
-            <div className="subheading">Joshua Tree Overnight Adventure</div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis animi, iure soluta asperiores sapiente libero illo
-              deserunt dolore dolores quas fugit molestiae aliquam eius!
-            </p>
-          </div>
-          <div className="tile-foot">
-            <span>Travel</span> / August 21 2017
-          </div>
-        </div>
-        <div className="tile">
-          <div className="cover2"></div>
-          <div className="text-cont">
-            <div className="subheading">Joshua Tree Overnight Adventure</div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis animi, iure soluta asperiores sapiente libero illo
-              deserunt dolore dolores quas fugit molestiae aliquam eius!
-            </p>
-          </div>
-          <div className="tile-foot">
-            <span>Travel</span> / August 21 2017
-          </div>
-        </div>
+        <TileWithImage
+          title={data[latest_tile[0]].title}
+          image={data[latest_tile[0]].thumb}
+          desc={data[latest_tile[0]].description}
+          p_date={data[latest_tile[0]].post_date}
+          genre={data[latest_tile[0]].genre}
+        />
+
+        <TileWithImage
+          title={data[latest_tile[1]].title}
+          image={data[latest_tile[1]].thumb}
+          desc={data[latest_tile[1]].description}
+          p_date={data[latest_tile[1]].post_date}
+          genre={data[latest_tile[1]].genre}
+        />
+
+        <TileWithImage
+          title={data[latest_tile[2]].title}
+          image={data[latest_tile[2]].thumb}
+          desc={data[latest_tile[2]].description}
+          p_date={data[latest_tile[2]].post_date}
+          genre={data[latest_tile[2]].genre}
+        />
       </div>
-      <div className="subtitle">
-        <span>Latest Articles</span>
-        <div className="bottom-line"></div>
-      </div>
+
+      <Subtitle title={"Latest Articles"} />
+
       <div className="ls-container">
         <div className="ls-sub-cont-first">
           <div className="ls-sub-img-first"></div>
@@ -87,10 +103,8 @@ const Home = () => {
       <div className="rs-tposts-container"></div>
       <div className="ls-img-container"></div>
 
-      <div className="subtitle">
-        <span>Latest Stories</span>
-        <div className="bottom-line"></div>
-      </div>
+      <Subtitle title={"Latest Stories"} />
+
       <div className="htext-container">
         <div className="text-cont2">
           <div className="subheading">Catch waves with an advanture guide</div>

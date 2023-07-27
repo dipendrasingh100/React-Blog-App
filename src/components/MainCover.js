@@ -1,10 +1,9 @@
 import React from "react";
-import "../css/home.css";
 
-const Cover = (props) => {
+const MainCover = (props) => {
   return (
     <div
-      className={`cover ${props.cls === "img1" ? "img1" : "img2"}`}
+      className="main-img"
       style={{ backgroundImage: `url(${props.image})` }}
     >
       <div className="cover-title-conatiner">
@@ -13,9 +12,8 @@ const Cover = (props) => {
       <div className="tile-foot fcover">
         <span>{props.genre}</span> / {props.p_date}
       </div>
-      <div className="bottom-line-cover"></div>
     </div>
   );
 };
 
-export default Cover;
+export default MainCover;
