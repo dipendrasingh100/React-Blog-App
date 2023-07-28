@@ -5,17 +5,22 @@ import Subtitle from "../components/Subtitle";
 import TileWithImage from "../components/TileWithImage";
 import { ContextData } from "../components/ContextData";
 import MainCover from "../components/MainCover";
+import LeftTile from "../components/LeftTile";
+import MainCover2 from "../components/MainCover2";
+import TileWithoutImage from "../components/TileWithoutImage";
+import TPRightTile from "../components/TPRightTile";
+import downArrow from "../assets/arrow.svg";
+import rightArrow from "../assets/arrow-1.svg";
 
 function generateRandomNumbers(n) {
   const min = 1;
-  const max = 35;
+  const max = 60;
   const randomNumbers = [];
 
   for (let i = 0; i < n; i++) {
     const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
     randomNumbers.push(randomNumber);
   }
-
   return randomNumbers;
 }
 
@@ -23,6 +28,7 @@ const Home = () => {
   const data = useContext(ContextData);
   const first3_cover = generateRandomNumbers(3);
   const latest_tile = generateRandomNumbers(3);
+  const latest_articles = generateRandomNumbers(4);
 
   return (
     <>
@@ -33,112 +39,115 @@ const Home = () => {
           image={data[first3_cover[0]].thumb}
           genre={data[first3_cover[0]].genre}
         />
-        <Cover
-          cls="img1"
-          title={data[first3_cover[1]].title}
-          p_date={data[first3_cover[1]].post_date}
-          image={data[first3_cover[1]].thumb}
-          genre={data[first3_cover[1]].genre}
-        />
-        <Cover
-          cls="img2"
-          title={data[first3_cover[2]].title}
-          p_date={data[first3_cover[2]].post_date}
-          image={data[first3_cover[2]].thumb}
-          genre={data[first3_cover[2]].genre}
-        />
+        {first3_cover.map(
+          (value, index) =>
+            index !== 0 && (
+              <Cover
+                key={index}
+                cls={`img${index}`}
+                title={data[value].title}
+                p_date={data[value].post_date}
+                image={data[value].thumb}
+                genre={data[value].genre}
+              />
+            )
+        )}
       </div>
 
       <Subtitle title="The Latest" />
 
       <div className="himgs-container">
-        <TileWithImage
-          title={data[latest_tile[0]].title}
-          image={data[latest_tile[0]].thumb}
-          desc={data[latest_tile[0]].description}
-          p_date={data[latest_tile[0]].post_date}
-          genre={data[latest_tile[0]].genre}
-        />
-
-        <TileWithImage
-          title={data[latest_tile[1]].title}
-          image={data[latest_tile[1]].thumb}
-          desc={data[latest_tile[1]].description}
-          p_date={data[latest_tile[1]].post_date}
-          genre={data[latest_tile[1]].genre}
-        />
-
-        <TileWithImage
-          title={data[latest_tile[2]].title}
-          image={data[latest_tile[2]].thumb}
-          desc={data[latest_tile[2]].description}
-          p_date={data[latest_tile[2]].post_date}
-          genre={data[latest_tile[2]].genre}
-        />
+        {latest_tile.map((value, index) => (
+          <TileWithImage
+            key={index}
+            title={data[value].title}
+            image={data[value].thumb}
+            desc={data[value].description}
+            p_date={data[value].post_date}
+            genre={data[value].genre}
+          />
+        ))}
       </div>
 
       <Subtitle title={"Latest Articles"} />
 
       <div className="ls-container">
-        <div className="ls-sub-cont-first">
-          <div className="ls-sub-img-first"></div>
-          <div className="ls-sub-text-cont"></div>
-        </div>
-        <div className="ls-sub-cont">
-          <div className="ls-sub-img"></div>
-          <div className="ls-sub-text-cont"></div>
-        </div>
-        <div className="ls-sub-cont">
-          <div className="ls-sub-img"></div>
-          <div className="ls-sub-text-cont"></div>
-        </div>
-        <div className="ls-sub-cont">
-          <div className="ls-sub-img"></div>
-          <div className="ls-sub-text-cont"></div>
+        <LeftTile
+          cls={"ls-first"}
+          title={data[latest_articles[0]].title}
+          image={data[latest_articles[0]].thumb}
+          desc={data[latest_articles[0]].description}
+          p_date={data[latest_articles[0]].post_date}
+          genre={data[latest_articles[0]].genre}
+        />
+        {latest_articles.map(
+          (value, index) =>
+            index !== 0 && (
+              <LeftTile
+                key={index}
+                title={data[value].title}
+                image={data[value].thumb}
+                desc={data[value].description}
+                p_date={data[value].post_date}
+                genre={data[value].genre}
+              />
+            )
+        )}
+        <div className="more">
+          <img src={downArrow} alt="not found" /> <p>LOAD MORE</p>
         </div>
       </div>
+
       <div className="rs-ad-container">
         <div className="ad-title">Advertisement</div>
       </div>
-      <div className="rs-tposts-container"></div>
-      <div className="ls-img-container"></div>
+      <div className="rs-tposts-container">
+        <Subtitle title={"Top Posts"} />
+        <TPRightTile
+          cls={"tp-first"}
+          title={data[latest_articles[0]].title}
+          image={data[latest_articles[0]].thumb}
+          p_date={data[latest_articles[0]].post_date}
+          genre={data[latest_articles[0]].genre}
+        />
+        {latest_articles.map(
+          (value, index) =>
+            index !== 0 && (
+              <TPRightTile
+                key={index}
+                title={data[value].title}
+                image={data[value].thumb}
+                p_date={data[value].post_date}
+                genre={data[value].genre}
+              />
+            )
+        )}
+      </div>
+      <div className="ls-img-container">
+        <MainCover2
+          title={data[first3_cover[0]].title}
+          p_date={data[first3_cover[0]].post_date}
+          image={data[first3_cover[0]].thumb}
+          genre={data[first3_cover[0]].genre}
+        />
+      </div>
 
       <Subtitle title={"Latest Stories"} />
 
       <div className="htext-container">
-        <div className="text-cont2">
-          <div className="subheading">Catch waves with an advanture guide</div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-            animi, iure soluta asperiores sapiente libero illo deserunt dolore
-            dolores quas fugit molestiae aliquam eius!
-          </p>
-          <div className="tile-foot2">
-            <span>TECH</span> / TODAY AT 11:54
-          </div>
-        </div>
-        <div className="text-cont2">
-          <div className="subheading">Catch waves with an advanture guide</div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-            animi, iure soluta asperiores sapiente libero illo deserunt dolore
-            dolores quas fugit molestiae aliquam eius!
-          </p>
-          <div className="tile-foot2">
-            <span>STYLE</span> / August 21 2017
-          </div>
-        </div>
-        <div className="text-cont2">
-          <div className="subheading">Catch waves with an advanture guide</div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-            animi, iure soluta asperiores sapiente libero illo deserunt dolore
-            dolores quas fugit molestiae aliquam eius!
-          </p>
-          <div className="tile-foot2">
-            <span>TECH</span> / August 21 2017
-          </div>
-        </div>
+        {first3_cover.map((value, index) => (
+          <TileWithoutImage
+            key={index}
+            title={data[value].title}
+            desc={data[value].description}
+            p_date={data[value].post_date}
+            genre={data[value].genre}
+          />
+        ))}
+      </div>
+
+      <div className="more">
+        <p>LOAD MORE</p><img src={rightArrow} alt="not found" /> 
       </div>
     </>
   );

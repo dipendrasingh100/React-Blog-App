@@ -355,54 +355,305 @@ const data = [
   },
   {
     id: 36,
-    title: '',
-    post_date: '',
+    title: 'Study finds isometric exercises like planks twice as effective for lowering blood pressure; expert weighs in',
+    post_date: 'July 17 2023',
     genre: 'Fitness',
-    ref: '',
-    thumb: '',
-    description: "",
-    detail: ""
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/study-names-isometric-exercises-like-planks-twice-effective-for-lowering-blood-pressure-expert-weighs-in-8863403/',
+    thumb: 'https://images.indianexpress.com/2023/07/plank_1200_getty.jpg?resize=450,250',
+    description: "The report recommended performing 4x2 minutes of wall sits, with two-minutes’ rest in between, three times a week, alongside other forms of exercise.",
+    detail: "Unlike what has long been considered, a new study claims that isometric exercises that require the body to be held in one position can be twice as effective as moderate-intensity aerobic activity. While the results showed that significant reductions in resting systolic and diastolic blood pressure occurred after all exercise types, it was specifically isometric exercises like planks and wall sits or wall squats that were most effective, reported the study published in the British Journal of Sports Medicine.  It examined 270 randomised controlled clinical trials, involving 15,827 participants.  According to Jamie O’Driscoll, a reader in cardiovascular physiology at Canterbury Christ Church University and senior author of the report, the reduction in blood pressure could be attributed to the static contraction of the muscles that squeeze the vessels that supply blood to the working muscles. “That reduces the flow of blood to the muscle during exercise and therefore oxygen supply to the muscle. When the muscles relax afterward, it causes a large flow of blood through the vessels, triggering greater improvements in blood flow regulation,” said Driscoll in a statement.  The report recommended performing 4×2 minutes of wall sits, with two-minutes’ rest in between, three times a week, alongside other forms of exercise.  Acknowledging that aerobic exercise training, dynamic resistance training, combined training, high-intensity interval training, and isometric exercise training are all significantly effective in reducing resting systolic blood pressure and diastolic blood pressure. “Comparatively, isometric exercise training remains the most effective mode. The findings of this analysis should inform future guideline recommendations,” it noted."
   },
   {
     id: 37,
-    title: '',
-    post_date: '',
+    title: 'With a throwback picture, trainer reveals how Ranveer Singh managed to look ‘jacked’',
+    post_date: 'July 19 2023',
     genre: 'Fitness',
-    ref: '',
-    thumb: '',
-    description: "",
-    detail: ""
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/ranveer-singh-trainer-lloyd-stevens-look-jacked-bodybuilding-throwback-8848019/',
+    thumb: 'https://images.indianexpress.com/2023/07/ranveer-singh_1200_2016.jpg?w=640',
+    description: "Everyone these days is looking for a quick fix. In fact, I can confidently tell you, the faster the results the more likely the method you used will unsustainable in the long-term, shared Lloyd Stevens, fitness trainer and transformation specialist",
+    detail: "Bollywood celebrities are at the peak of their fitness routine and have always managed to create awe around their transformation with the help of celebrity trainers. As such, when Lloyd Stevens, fitness trainer and transformation specialist, shared a throwback picture of actor Ranveer Singh from his 2016-Befikre days, we couldn’t help but go down the memory lane with Stevens, who opened up about how Singh managed to surprise everyone with his chiselled physique.  “Was tidying up my camera roll and came across this picture of Ranveer Singh looking jacked. This was the prep for Befikre and we were in Paris/France at that time,” he shared.  What was the secret? “Kept it simple, pure consistency and hard work … that’s it,” added Stevens.  According to Stevens, people tend to underestimate the basic principles of consistent hard work. “Everyone these days is looking for a quick fix. In fact, I can confidently tell you, the faster the results, the more likely the method you used will be unsustainable in the long-term,” said Stevens.  Rishabh Telang, fitness expert, Cult.fit shared a few pointers to include physical activity that can help you stay on track with your fitness goals.  Physical activity doesn’t have to feel like a chore. Try incorporating a variety of activities such as dance, yoga, and team sports to keep your workouts engaging. Aim for consistency and genuinely go for workouts you enjoy. However, do include strength training in your everyday routine to ensure there is no loss in muscle mass, said Telang."
   },
   {
     id: 38,
-    title: '',
-    post_date: '',
+    title: 'Virat Kohli’s ‘go-to’ exercise is this type of squats; know more',
+    post_date: 'July 18 2023',
     genre: 'Fitness',
-    ref: '',
-    thumb: '',
-    description: "",
-    detail: ""
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/virat-kohli-goblet-squat-history-name-benefits-8845375/',
+    thumb: 'https://images.indianexpress.com/2023/07/virat-kohli_200_insta.jpg?w=640',
+    description: "Bala Krishna Reddy, co-founder, Fittr said that this simple yet potent exercise offers a holistic approach to fitness",
+    detail: "Virat Kohli continues to impress with his unwavering commitment to fitness. Of late, he has been sharing several glimpses of his workout routines, serving as a major source of inspiration for many. As such, Kohli recently introduced his fans and followers to his preferred exercise for enhancing mobility and strength.  “My go-to exercise for mobility plus strength? Goblet squats,” he captioned the post on Instagram.  Notably, strength and mobility are defined by fundamental body movements such as squats, lunges, hinges, push, pull, rotate, and walking. “When performing functional exercises, we include multi-joint exercises such as squats, deadlifts, lunges, shoulder presses, rowing, push-ups, loaded carries, or some rotational exercises like woodchop. These activities reflect everyday behaviour. When we climb stairs, we lunge, when we pull open a door, we row, when we lift a sack of rice off the ground, we deadlift, when we carry shopping bags in our hands and walk to our car, we do loaded carries,” said Varun Rattan, co-founder, The Body Science Academy.  For the unversed, the simple but effective movement of goblet squats gets its name from the act of holding a goblet or a drinking glass with a foot and a stem which resembles the practice of holding a kettlebell or a dumbbell in front of the chest.  Calling goblet squats a transformative addition to leg days which propels one’s weight loss journey to new heights, Bala Krishna Reddy, co-founder, Fittr said that the simple yet potent exercise offers a holistic approach to fitness. “The goblet squat engages multiple muscle groups simultaneously, including the glutes, quads, and core, fostering better muscle development and strength,” said Reddy.  Also Read | Asha Negi does the kettlebell workout; know all about it  With proper form and technique, this exercise can enhance your overall balance and stability, minimising the risk of injuries. “The added resistance from the weight challenges your body to burn more calories, expediting fat loss and toning your lower body,” mentioned Reddy."
   },
   {
     id: 39,
+    title: '‘Time to get stronger’: Trainer tells Kartik Aaryan as he preps for his next',
+    post_date: 'July 14 2023',
+    genre: 'Fitness',
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/kartik-aaryan-chandu-champion-fitness-london-tips-8832843/',
+    thumb: 'https://images.indianexpress.com/2023/07/kartik-aaryan_1200_insta.jpg?w=640',
+    description: "Gauthaman Ramesh, fitness expert, Cult.fit said that bodybuilding is prioritising your workout program to focus on building muscle",
+    detail: "Kartik Aaryan has been in the limelight for all the right reasons. The now bankable actor who has delivered back-to-back hits at the box office is all set to get stronger with fitness trainer Tridev Pandey for his next sports-based film Chandu Champion heralded by filmmaker Kabir Khan. As such, he was seen teaming up with Pandey at the gym.  Take a look at a glimpse shared by Pandey on Instagram.  “Time to get stronger for the strongest role. Let’s do this @kartikaaryan!” wrote Pandey, who is known for training actors like Sanya Malhotra, and Shweta Tripathi Sharma among others.  Reports suggest the role would see him in the role of an unknown sports hero.  Taking a cue from Kartik’s role in the film that seems to hint at a bulked-up physique, let’s understand how one can approach bodybuilding.  How to approach bodybuilding?  Gauthaman Ramesh, fitness expert, Cult.fit said that bodybuilding is prioritising your workout program to focus on building muscle.  “More often than not, a lot of fitness enthusiasts misunderstand the concept of bodybuilding and relate it to something hardcore that they often think is beyond their scope of achievement. This need not necessarily mean doing hours and hours of exercise at the gym,” said Gauthaman.  Gauthaman also shared how one can start their training routine:  *Work out for 4-5 days a week with an equal split of upper body and lower body exercises with approximately 18-25 sets per day. This combines all the exercises done for the day.  *Ensure you track your workouts by keeping a note of the weights you used and try to slowly increase the weights you lift on a week-on-week basis. Notably, progressive weight training or progressive overload gives stimulus to the muscles to grow stronger. This, experts urge, is important to make progress in one’s fitness regimen."
+  },
+  {
+    id: 40,
+    title: 'Nutrition alert: Here’s what a 100-gram serving of lauki contains',
+    post_date: 'July 27 2023',
+    genre: 'Fitness',
+    ref: 'https://indianexpress.com/article/lifestyle/health/nutrition-alert-heres-what-a-100-gram-serving-of-lauki-contains-8861259/',
+    thumb: 'https://images.indianexpress.com/2023/07/lauki1.jpg?w=640',
+    description: "According to Richa Anand, chief dietician at Dr LH Hiranandani Hospital, Powai, Mumbai, eating lauki in the monsoon is great for your health as it has high water content, is easily digestible and supports immune health. However, she emphasises the importance of ensuring proper hygiene and cleanliness while preparing and consuming lauki.",
+    detail: "Hate it or love it, lauki (bottle gourd) is a vegetable that packs a punch. According to Richa Anand, chief dietician at Dr LH Hiranandani Hospital, Powai, Mumbai, it is a nutritious vegetable with various vitamins and minerals that contribute to a balanced and healthy diet.  “Its low-calorie and nutrient-rich profile makes it a valuable addition to various dishes,” she said.  Anand added that eating lauki in the monsoon is great for health as it has high water content, is easily digestible and supports immune health. However, she emphasised the importance of ensuring proper hygiene and cleanliness while preparing and consuming lauki or any other vegetable during the monsoon season.  “Wash lauki thoroughly to remove any potential contaminants and cook it at high temperatures to eliminate harmful bacteria,” she said.  Let’s take a look at the many health benefits of this green vegetable.  Anand attributed the following nutrients to be a part of a 100-gram serving of lauki.  Calories: 15  Carbohydrates: 3 grams  Dietary Fiber: 0.5 grams  Sugars: 1 gram  Protein: 0.6 grams  Fat: 0.1 grams  Vitamin C: 10 milligrams (17% of the Daily Value, DV)  Vitamin B6: 0.04 milligrams (2% DV)  Vitamin A: 20 micrograms (2% DV)  Folate: 6 micrograms (2% DV)  Potassium: 116 milligrams (3% DV)  Magnesium: 11 milligrams (3% DV)"
+  },
+  {
+    id: 41,
+    title: 'Malaika Arora reminds us to be ‘consistent’ with Yoga, shares three affirmations',
+    post_date: 'July 6 2023',
+    genre: 'Fitness',
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/malaika-arora-yoga-practice-affirmations-benefits-8699001/',
+    thumb: 'https://images.indianexpress.com/2023/07/malaika-1.jpg?w=640',
+    description: "The fitness enthusiast regularly posts snippets of her workout routines and training regimes on her social media. Her posts motivate all her fans and followers to prioritise on their fitness and put efforts in maintaining a healthy lifestyle.",
+    detail: "Malaika Arora is renowned not only for her impeccable fashion sense but also for her exceptional dedication to fitness. As a fitness enthusiast, she consistently shares glimpses of her workout routines and training regimens on social media. Her inspiring posts serve as motivation for her fans and followers, encouraging them to prioritise their own fitness journeys and embrace a healthy lifestyle.  Recently, she shared a message with her followers, encouraging them to include the practice of yoga in their daily life. “Hello Divas, how are we doing today? It’s the first Monday of the new month and this is your reminder to stay consistent with your Yoga practice,” she wrote in the caption.  According to Neeraj Pandey, Senior Yoga Coach, Fitelo, it is important to understand that the word ‘Yoga‘ is derived from the Sanskrit word ‘Yuj’, which means to unite. “This translates to the essence of Yoga, which is focused on unifying individual and universal consciousness to create the perfect balance and harmony between mind (mental) and body (physical).”  Adding, he said, “Yoga is known to help improve cardiovascular fitness, enhance posture, and even recover from physical injuries in some cases. On the other hand, poses, breathing, and meditation, which are at the core of Yoga, promote mental health, enhance concentration, increase patience with your body and mind, and reduce stress and anxiety.”"
+  },
+  {
+    id: 42,
+    title: 'International Day of Yoga 2023: Here’s how you can incorporate yoga into your busy routine',
+    post_date: 'June 21 2023',
+    genre: 'Fitness',
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/international-day-of-yoga-2023-incorporating-yoga-busy-routine-8674545/',
+    thumb: 'https://images.indianexpress.com/2023/06/yoga-1200.jpg?w=640',
+    description: "Despite a hectic lifestyle, taking out a few minutes for yoga can provide immense physical and mental rejuvenation",
+    detail: "Every year, International Day of Yoga is celebrated on June 21 to promote the age-old practice of yoga and its numerous benefits for your mental and physical health. Incorporating yoga into your routine, even when you have a busy schedule, is essential for several reasons.  Yoga is known to help in reducing stress, improving flexibility, enhancing concentration and fostering overall well-being. Despite a hectic lifestyle, taking out a few minutes for yoga can provide immense physical and mental rejuvenation.  But how can you do that? We reached out to yoga experts who shared some effective tips if you wish to begin practising yoga but don’t have a lot of time to spare.  Dr Rajeev Rajesh, Chief Yoga Officer, Jindal Naturecure Institute, Bangalore said when life becomes overwhelming and packed with responsibilities, yoga often becomes one of the first activities we abandon. “Professionals and parents don’t have much time available in their daily schedule to take out time for yoga or any kind of physical activity,” he said.  However, he believes that it can still be possible to include yoga in your daily schedule with a few adjustments and mindful planning. “Establishing a daily yoga practice brings numerous benefits and serves as an excellent tool for finding balance amidst a hectic lifestyle,” Dr Rajesh added.  Whether you’re a yoga novice or struggling to commit to a daily routine at home, here are a few valuable tips shared by the expert to simplify, enhance, and maintain daily practice with ease.  Morning or evening routine: Consider incorporating yoga into your morning or evening routine. Wake up a few minutes earlier or dedicate a few minutes in the evening to perform a short yoga session. This can help energize you in the morning or relax your mind and body before you sleep.  Lunchtime stretches: If possible, take a break during your lunch hour and use part of that time for a quick yoga practice. Find a quiet space, either indoors or outdoors, and perform a few simple stretches and poses to refresh your body and mind."
+  },
+  {
+    id: 43,
+    title: 'Shy girl workouts’ aren’t just a great way to get fit – they may also help women gain confidence in the gym',
+    post_date: 'June 21 2023',
+    genre: 'Fitness',
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/shy-girl-workouts-great-women-gain-confidence-gym-8664494/',
+    thumb: 'https://images.indianexpress.com/2023/06/john-arano-h4i9G-de7Po-unsplash.jpg?w=640',
+    description: "When women share their shy girl workouts online, it not only helps give other women ideas about the kind of workouts they can do, but it also normalizes experiences that are common to many women.",
+    detail: "Social media is full of fitness trends. While some of these are outlandish or verging on dangerous, others are actually helpful.  Take the “shy girl workout” trend. While this has been floating around the internet since late 2022, it continues to be popular online.  The premise of shy girl workouts is simple. They are designed to use minimal space in the gym and only a couple of pieces of equipment – such as a pair of dumbbells.  They’re targeted at women who may be beginners or who have anxiety about going to the gym but still want to get a good resistance workout without having to move around the gym floor or use complicated weight machines.  While the initial benefit of these workouts is that they can help you get over your fear of going to the gym, they may also have the more long-term benefit of empowering users and helping them feel more confident about being in the gym.  There’s a great deal of research showing that women face societal pressures to attain the perfect fit and toned physique. This pressure is particularly acute in exercise environments (such as the gym) where people’s bodies are the focus. Women who feel they don’t have the ideal body may therefore feel uncomfortable going to the gym.  Many women often feel like they’re being “looked at” when they’re in the gym. This feeling is known as “hypervisibility”, and tends to happen when people think they’re different from others in a particular social setting.  In the case of the gym, hypervisibility occurs due to the male-dominated nature of the space, making women feel like they stand out. This feeling of hypervisibility can worsen women’s existing body insecurities and may encourage some women to avoid the gym altogether."
+  },
+  {
+    id: 44,
+    title: 'Should you practice yoga only in the mornings?',
+    post_date: 'June 21 2023',
+    genre: 'Fitness',
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/yoga-day-mornings-evenings-time-benefits-8674734/',
+    thumb: 'https://images.indianexpress.com/2023/06/yoga_200_pixabay.jpg?w=640',
+    description: "International Day of Yoga 2023: Consistency is key, so establishing a regular yoga practice can provide you with the benefits of improved flexibility, strength, balance, mental clarity, and overall well-being, said Dr Swapnil Kamble, medical officer, Godrej Memorial Hospital, Mumbai",
+    detail: "Practising yoga or any form of exercise in the morning, particularly in the early hours, can be highly beneficial as it sets the tone for your day. Starting your day with exercise can provide you with increased energy and help you perform a good workout. While many people find that practising yoga in the morning helps them start their day with a sense of calmness and energy, it is not the only time that yoga can be beneficial. As such, yoga practitioner Swati opened up about the ideal time to practise yoga.  “The ideal time to practice yoga is during the Sandhya Kalas. Twenty minutes before and after sunrise, noon and sunset, this is known as Sandhya Kala period or the transition period,” said Swati.  “It is believed in the Yogic culture that during this period, the flow of energy is in an upward state. So naturally, practising yoga during Sandhya Kalas would help you go beyond your limitations. But this may not hold true for everybody given their schedules. In that case, practise it whenever you want, just make sure there is a gap of 2-3 hours between your meal and yoga practice,” she added.  Even yogic texts and traditions recommend practising yoga in the early morning, known as “Brahma Muhurta”. This time, approximately one and a half hours before sunrise, is considered spiritually charged and conducive to meditation and deep introspection, mentioned Dr Swapnil Kamble, medical officer, Godrej Memorial Hospital, Mumbai. As such, taking a cue, we decided to seek expert opinions on when is the right time to practise yoga."
+  },
+  {
+    id: 45,
+    title: 'Can running increase the risk of hip and knee osteoarthritis? Experts weigh in',
+    post_date: 'June 20 2023',
+    genre: 'Fitness',
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/experts-running-risk-hip-knee-osteoarthritis-8658099/',
+    thumb: 'https://images.indianexpress.com/2023/06/running_200_ixabay-1.jpg?w=640',
+    description: "'Running or any sort of mobilisation of the joints is helpful. Risk of injury to any joint may be knee or hip is associated when its overuse, any wrong posture or when there is an injury in the periarticular region,' said Dr Udit Kapoor, consultant, Metro Hospital, Faridabad",
+    detail: "Although running is widely regarded as one of the most effective methods to maintain fitness, it can give rise to uncertainties among newcomers or individuals with injuries. So, we decided to decode whether running increases the risk of hip and knee osteoarthritis (OA), a condition where the protective cartilage around the joints wears down. Neurologist Dr Sudhir Kumar, Apollo Hospitals, Hyderabad created an interesting thread on the same on Twitter.  “This is a common question in the minds of new #runners as well as experienced runners. There are no randomised controlled trials, however, there are >25 excellent research papers on the topic,” said Dr Kumar, suggesting that running, in general, is protective against knee and hip joint inflammation and damage. “The risk of OA is lower among runners as compared to nonrunners,” he added.  According to him, running does not lead to OA of knees and hips if the weekly #mileage is between 21-42 km. In contrast, the risk of hip OA increases among elite runners with weekly mileage > 92 km.  Citing the Journal of Orthopedics and Sports Physical Therapy 2017, Dr Kumar said that recreational running protects knee and hip joints with lower mileage, and lower number of years of running as compared to higher mileage, longer duration, and competitive running.  The study mentioned that running can cause OA in competitive runners with recreational runners having lower rates of hip and knee osteoarthritis (3.5 per cent) as compared to competitive runners (13.3 per cent) and nonrunners (10.2 per cent)"
+  },
+  {
+    id: 46,
+    title: 'Is it safe for children to deadlift?',
+    post_date: 'June 19 2023',
+    genre: 'Fitness',
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/safe-children-deadlift-weightlifting-benefits-growth-8640824/',
+    thumb: 'https://images.indianexpress.com/2023/06/deadlift-children_1200_freepik.jpg?w=640',
+    description: "According to Varun Rattan, co-founder, The Body Science Academy, Noida, deadlifts can help children develop good posture, which can make them appear taller. It can also help them build muscle, which can make them stronger and healthier.",
+    detail: "An eight-year-old’s video of weightlifting like a pro went viral recently. In the videos, Arshia Goswami from Haryana’s Panchkula can be seen deadlifting 60kgs. In 2021, she made it to the India Book of Records for lifting 45 kgs. As such, a natural question to ask is whether it is safe for children to do deadlifts or lift any kind of weight. Here’s what experts told us.  “Deadlifting for kids is a safe and effective way to improve their health, fitness, and overall well-being,” said Varun Rattan, co-founder, The Body Science Academy, Noida.  Lifting doesn’t stunt growth  One of the biggest myths surrounding deadlifting for children is that it stunts their growth. However, this is not true. Dr Ayyappan V Nair, Consultant – Shoulder Surgery, Sports Medicine and Arthroscopy, Manipal Hospital Whitefield, Sarjapur, and Jayanagar, Bangalore said it doesn’t affect growth. “At the same time, it’ll help in sport growth because whenever you’re loading, better growth is noted. The only catch is if you suffer from an injury, like a growth plate injury from a deadlift, then, you can have growth affection. Otherwise, it helps in the growth of the child,” said Dr Nair.  According to Rattan, deadlifts can help children develop good posture, which can make them appear taller. “It can also help them build muscle, which can make them stronger and healthier,” said Rattan.  “Lifting weights is also good for children’s mental health, builds confidence, reduces stress levels and improves their self-esteem. It can also help them develop a positive body image and a healthy relationship with their bodies,” said Rattan."
+  },
+  {
+    id: 47,
+    title: 'Try these simple exercises for your wrists',
+    post_date: 'June 6 2023',
+    genre: 'Fitness',
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/simple-exercises-wrist-pain-8646765/',
+    thumb: 'https://images.indianexpress.com/2023/06/wrist-pain.jpg?w=640',
+    description: "Wrist pain is relatively common, which can be caused due to a variety of issues such as acute injury, arthritis, gout and carpal tunnel syndrome. This makes it important to protect your wrists from getting hurt.",
+    detail: "The wrists are extremely vital. From writing to holding objects, without your wrists your hands would practically be non-functional. However, wrist pain is relatively common, which can be caused due to a variety of issues such as acute injury, arthritis, gout and carpal tunnel syndrome. This makes it important to protect your wrists from getting hurt.  Addressing this, Anshuka Parwani, Yoga instructor and Holistic Wellness Expert took to Instagram to share a few exercises to help combat wrist pain. “We often tend to experience wrist pain while working out. This can happen due to various factors like ligament strain, sudden pressure on the muscles while exercising, lack of mobility etc. Strong wrists are very important as they place a major role in stabilising the arms during various fitness drills and workouts,” she said.  Demonstrating a range of exercises which can help combat wrist pain while working out, Parwani added, “Here are some simple movements and exercises that will help to strengthen the wrist muscles, build grip strength, increase flexibility and reduce the risk of injuries.” We asked an expert on how these exercises help. Take a look.  Palms open and close  Jiggyasa Gupta, a nutrition and fitness coach, FITTR said, “This is one of the restorative, strengthening hand therapy exercise and is also used as a warmup in intense yoga poses,” adding that the steps are quite simple, “Inhale and spread the fingers. Then exhale, bringing the fingers together and repeat for few breaths”.  Wrist rotation  Explaining the benefits of this, Gupta said that wrist rotations are an excellent movement that takes the wrist joint through a wide range of motions. “Wrist rotations can aid in increasing mobility, preventing injuries, and improving blood flow to the active muscles.”  As for the process, “It can be performed by grasping a hand weight or similar object in each hand or just simply close the fist. Keeping your forearms by your sides, rotate your hands until your palms are facing up or toward the front of your body. Hold for 10 to 15 seconds and repeat 5 to 10 times”."
+  },
+  {
+    id: 48,
+    title: 'Planks vs push-ups: Know the differences, and which is better for beginners',
+    post_date: 'June 1 2023',
+    genre: 'Fitness',
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/planks-pushups-benefits-caution-tips-8635088/',
+    thumb: 'https://images.indianexpress.com/2023/05/planks.jpg?w=640',
+    description: "Adapting the exercises to suit an individual's present fitness level helps prevent unnecessary strain or potential injuries, said Aminder Singh, a fitness expert",
+    detail: "Talking about the advantages of performing planks, Singh said that this exercise involves applying force without any movement, making it a versatile and beneficial exercise for individuals with varying fitness levels. “Another crucial advantage of planks is that there are numerous variations of them to suit individual abilities. Whether you are older, more fragile, or muscular, the plank can be customised to fulfill your specific needs and goals,” he added.  As for pushups, Singh noted that they mimic the movement pattern of a flat bench press, making them an ideal alternative to conventional weightlifting exercises. “The resistance applied during pushups is about 63 percent of your body weight. For instance, if you weigh 100 kilograms, you would essentially be pushing around 63 kilograms. The primary advantage of pushups lies in their adaptability, as you can modify the load according to your specific requirements and abilities, ranging from wall pushups for beginners to full-body weight pushups,” he continued.  But which is better for beginners?  Singh said that when comparing plank with pushups, the former is easier for beginners. “This is because to perform pushups, you need to first get into a plank position. Moreover, pushups can be difficult as they involve balancing your body weight on your arms and moving up and down. This requires exceptional arm and shoulder strength which can only be acquired by continuous exercise. So, beginners should go for planks first and gradually progress towards pushups or half-pushups,” he added."
+  },
+  {
+    id: 49,
+    title: 'To avoid back injury, this is how you must get out of bed in the morning',
+    post_date: 'May 24 2023',
+    genre: 'Fitness',
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/getting-out-of-bed-back-pain-morning-8624424/',
+    thumb: 'https://images.indianexpress.com/2023/05/spine-health.jpg?w=640',
+    description: "When you sleep, the disc pressure in your spine increases, meaning that you're more likely to suffer a disc injury first thing in the morning than at any other time.",
+    detail: "Do you ever feel that your back is stiff and sore despite sleeping well at night? Well, you are not alone. However, there is nothing to worry about, as the solution lies in making an extremely simple lifestyle change. According to experts, the reason lies in how you get off bed every morning — as it is the time you are most prone to back pain and hurting your lower back.  When you sleep, the disc pressure in your spine increases, meaning you’re more likely to suffer a disc injury first thing in the morning than at any other time. So, if you get out of bed the wrong way, this disc pressure can lead to back pain and other problems.  Explaining the same, Dr Arvind Bhateja, lead neurosurgeon, Sparsh Hospitals, said: “Watch out when you get out of bed in the morning. The reason I am saying this is because, as a spine surgeon, many patients come to me after they got out of bed the wrong way or too suddenly when they wake up in the morning. I am going to show you the right way to take care of your back so that you don’t injure it when you are waking up first thing in the morning.”  “Just remember that when you wake up in the morning your body is cold and your muscles are stiff, making it the time your back is most susceptible and likely to get injured,” he continue  Demonstrating the right way to get out of bed, he said, “It’s always better to have prevention over cure. So when you wake up in the morning, remember to first stretch yourself out while you are still lying in bed. And if you’re lying on your back, first turn to your side, and then gently get your feet off the edge of the bed so that you use your feet as a counter weight to get your body up to sit straight on the bed using your hand for support.”  Dr Bhateja added that this is best way to ensure that you do not hurt your back when you get out of bed in the morning."
+  },
+  {
+    id: 50,
+    title: '5 yoga stretches to ‘increase range of motion’ in the neck, shoulders',
+    post_date: 'May 12 2023',
+    genre: 'Fitness',
+    ref: 'https://indianexpress.com/article/lifestyle/fitness/6-simple-yoga-stretches-stiff-neck-shoulders-8602456/',
+    thumb: 'https://images.indianexpress.com/2023/05/stiff-neck-and-shoulder.jpg?w=640',
+    description: "Stiff neck and shoulders can significantly impact our daily lives, causing discomfort and limiting our range of motion. However, through targeted exercises and yoga asanas, we can find relief, restore flexibility, and improve overall well-being.",
+    detail: "1. Back and forward neck stretches. One of the most effective exercises for relieving neck stiffness is the back and forward neck stretch. This simple yet powerful movement involves gently tilting your head backward and forward while seated or standing. By stretching the muscles at the back and front of your neck, you can release tension, improve blood circulation, and enhance flexibility. Regular practice can lead to reduced stiffness and increased range of motion in the neck.  2. Ear to shoulder neck stretches. Ear to shoulder neck stretches provide a wonderful release for tight neck muscles. To perform this exercise, gently drop your ear toward your shoulder on each side, allowing the weight of your head to create a stretch. This movement targets the muscles on the side of the neck and upper shoulders, promoting relaxation and relieving tension. Regular practice of ear to shoulder neck stretches can improve posture and alleviate stiffness caused by hunching forward.  3. Cow face arms. Cow face arms, or Gomukhasana Arms, is a yoga pose that specifically targets the shoulders, upper back, and chest. By bringing your arms into a specific position resembling a cow’s face, you stretch and open the muscles and connective tissues in the shoulders. This asana helps relieve tension and tightness, enhancing flexibility and range of motion in the shoulders. Regular practice can also improve posture and counteract the effects of rounded shoulders.  4. Yoga belt rotation. Yoga belt rotation is an excellent exercise for releasing tension in the shoulders and promoting a greater range of motion. Start by holding a yoga belt or strap with both hands, shoulder-width apart. Extend your arms forward and then rotate them in a circular motion, gradually increasing the size of the circles. This movement helps stretch the muscles in the shoulders, upper back, and chest while improving joint mobility. Regular practice can alleviate stiffness and increase shoulder flexibility.  5. Low lunge thoracic. Low lunge thoracic opening is a yoga asana that targets both the neck and shoulders while also stretching the chest and upper back. Begin in a low lunge position with one foot forward and the other knee on the ground. Place your hands on your front knee and gently twist your upper body toward the front leg, looking over the shoulder. This asana helps release tension in the neck and shoulders, improves spinal mobility, and stretches the chest muscles. Regular practice can alleviate stiffness and improve overall posture."
+  },
+  {
+    id: 51,
+    title: 'Begin Your Day With These Food Combos To Boost Immunity And Stay Fit',
+    post_date: 'July 25 2023',
+    genre: 'Food',
+    ref: 'https://www.news18.com/lifestyle/begin-your-day-with-these-food-combos-to-boost-immunity-and-stay-fit-8386861.html',
+    thumb: 'https://images.news18.com/ibnlive/uploads/2023/07/shutterstock_217720432-1-16893578453x2.jpg?impolicy=website&width=510&height=356',
+    description: "Green tea mixed with lemon can provide a good amount of antioxidants. Combining a few food items together could provide high nutrition and maximum health benefit.",
+    detail: "The right mix of nutrients is highly important for health. It can sustain and charge your body in several ways. However, there are various factors that can stop us from getting the necessary dose of wellness, especially in the morning. Due to the busy lifestyle we hardly get time to take care of our health. We often skip breakfast and meals during the day.  Often in a rush, we eat sugary cereals for breakfast to save time, settle for junk food and fast food for our lunch cravings. We miss out on a balanced diet which is essential to maintain health. Ignoring a good diet and nutrition takes away your energy and also compromises the body immunity.  Little changes in our diet can help us in the long run to stay healthy. Choosing whole grains over refined grains and incorporating more protein into the diet, can help us maintain good health. More vegetables and fruits in our daily diet can help in attaining good health and can also mitigate the risk of diseases.  Nutritionist Tripti Tandon in her Instagram post recently shared a few food combinations that can bring amazing health benefits.  GREEN TEA+ LEMONS  People often start their day with a cup of Green Tea with a few drops of lemon in it. Green tea mixed with lemon can provide a good amount of antioxidants. It helps in cognitive function and helps in fat burning. Green tea can positively affect our metabolism and helps reduce weight. According to various studies, it may help in reducing the risks of cancer and protect the brain from ageing.  WALNUTS AND BLUEBERRIES  Walnuts are heart-healthy fats and high in antioxidants. A regular dose of walnuts may enhance brain health and cut down the risk of cancer and heart diseases. While blueberries are high on antioxidants and provide health benefits related to heart, mental health and blood pressure. A blend of blueberries and walnuts can create a vitalising and delicious meal."
+  },
+  {
+    id: 52,
+    title: "Jackie Shroff's Baingan Ka Bharta Recipe Is Doing The Rounds, You Should Try It Too",
+    post_date: 'July 19 2023',
+    genre: 'Food',
+    ref: 'https://www.news18.com/lifestyle/jackie-shroffs-baingan-ka-bharta-recipe-is-doing-the-rounds-you-should-try-it-too-8374183.html',
+    thumb: 'https://images.news18.com/ibnlive/uploads/2023/07/untitled-design-85-1-16897554553x2.png?impolicy=website&width=510&height=356',
+    description: "Jackie's ability to form deeper connections with his audience through the medium of food is a testament to his versatility and enduring popularity",
+    detail: "Jackie Shroff for years has been captivating audiences not only with his on-screen performances but his recent culinary ventures have caught everyone’s eyes too. Known for his charismatic personality and love for food, Jackie has recently been sharing his cooking skills through viral recipe videos on social media.  One such video that has gained significant attention features Jackie sharing his take on the classic Indian dish, ‘Baingan ka Bharta.’ With its rustic charm and traditional flavours, the video has garnered widespread appreciation and lots of likes on social media as netizens recreate his recipes.  Jackie Shroff’s ‘Baingan ka Bharta’ recipe is a testament to his passion for cooking and his desire to share his love for food with the world. In the video, Jackie demonstrates the art of open flame roasting the eggplant to achieve that smoky flavour.  He then skillfully blends the roasted eggplant with his special mix of garlic, lemon, onions, and tomatoes, creating a delicious blend of flavours. The simplicity and authenticity of the recipe have resonated with viewers, making it a hit among foodies.  This is not the first time Jackie Shroff’s culinary skills have gone viral. Previously, he showcased his expertise in a video where he prepared an egg dish with hot oil and curry leaves. While Jackie Shroff is widely acclaimed for his acting prowess, his viral recipe videos have allowed fans to discover a new side of his personality. Excited fans have flooded various online platforms with videos and photos where they recreate Bhidu’s recipes.  As Jackie Shroff’s recipe videos continue to captivate the hearts and palates of fans the anticipation for his upcoming movie, ‘Jailer,’ continues to grow. Fans eagerly await not only his mesmerizing performances on the silver screen but also the possibility of more tantalizing recipes to come."
+  },
+  {
+    id: 53,
+    title: 'Monsoon Food: 5 Fruits to Eat During the Season for Better Health and Immunity',
+    post_date: 'July 17 2023',
+    genre: 'Food',
+    ref: 'https://www.news18.com/lifestyle/food-monsoon-food-5-fruits-to-eat-during-the-season-for-better-health-and-immunity-8352607.html',
+    thumb: 'https://images.news18.com/ibnlive/uploads/2023/07/image-19-16895678983x2.jpg?impolicy=website&width=510&height=356',
+    description: "The best way to stay in great health during the monsoon is to adopt mindful eating practises, choose seasonal foods, and maintain an active lifestyle.",
+    detail: "The monsoon season has arrived, bringing with it a welcome break from the oppressively hot summer. However, this season also contributes to a number of health issues. Infections caused by mosquitoes, such as dengue fever, malaria, the seasonal flu, and typhoid, are more common during the monsoon season. Divya Kaur, a nutritionist, stated that the monsoon season “brings with it several infections and ailments like cholera and malaria. These fruits will strengthen your immune system and assist you in battling these diseases. The dietitian provides a list of seasonal fruits that can help you keep healthy and fit.  Peaches: These fruits contain fluoride, which promotes better oral health. Either consume it raw, blend it with salad, or consume the pulp. Vitamins, potassium, folate, and iron are among the powerful components found in jamun. During the monsoon, all of these nutrients are particularly beneficial.  Litchi: It contains many antioxidants that improve asthmatic patients’ ability to breathe and hasten weight loss. Litchi strengthens the immune system and aids in disease resistance in the body. When a common cold is contracted during the monsoon, vitamin C from litchis can aid.  Plums: Plums are inexpensive fruits in a little packaging. These fruits’ reddish-blue anthocyanin pigment guards against cancer as well. Your body is therefore more susceptible to infection and water-borne illnesses during the monsoon, which can negatively impact your health. Thus, maintaining your fitness is crucial.  Cherries: They are a great source of antioxidants and they stop or reverse the harm that free radicals bring to your body’s cells. They are also recognised as effective cancer prevention tools. In addition, they reduce arthritis pain, which worsens in the wet season.  Jamuns: They are low in calories and rich in vitamins, iron, folate, potassium, and other minerals. It is best to eat this fruit during the monsoon season. Additionally, it aids in the treatment of illnesses and digestive issues that commonly surface during the rainy season."
+  },
+  {
+    id: 54,
+    title: 'The Journey of Pizzas: The Crowd-Favourite Food Has Changed A Lot Over The Years',
+    post_date: 'July 19 2023',
+    genre: 'Food',
+    ref: 'https://www.news18.com/lifestyle/the-journey-of-pizzas-the-crowd-favourite-food-has-changed-a-lot-over-the-years-8377003.html',
+    thumb: 'https://images.news18.com/ibnlive/uploads/2023/07/pizza-1-16897710483x2.jpg?impolicy=website&width=510&height=356',
+    description: "From classic Margherita to exotic combinations, this circular delight has seen endless creativity from chefs worldwide",
+    detail: "Pizza is a food that has originated in Italy and transcended borders to become a global food that is available across different countries with their own version. In India, we love a traditional pizza as much as a gourmet pizza. So, how has this dish that symbolises taste and comfort, evolved over the years? The round-shaped dish has taken different forms, but nothing comes to the satisfaction of pulling a slice of pizza topped with cheese and choice of vegetables or meat.  Speaking of its origins, Dhaval Udeshi, Co-founder of Chrome Hospitality, says, “Ever been curious to know about the origin of the modern day pizza – how it came to be and some of its original toppings? As random as it may look like, pizza has a vibrant history. Pizza as we know it today has been around for three or so centuries. As early as the 3rd century, our forefathers would blend bread with varieties of toppings. So, we could trace pizza roots back to ancient times.”  Pizzas have surely changed over the years, and we love to have anything with a dash of Indian flavours in it. “Pizzas in India have changed a lot over the years. It started as a simple flatbread with tomatoes and cheese. But now, it has become a popular comfort food enjoyed by people of all backgrounds. Indian flavours like paneer, chicken tikka, and spices have been added to pizzas, creating a fusion of tastes. Technology and globalization have made pizzas more accessible, and customization options allow people to create their own unique pizzas. At Balmy, we have found our niche and preference with our classic wafer thin-crust pizzas with modernized toppings and flavours. Our pizzas have definitely become a crowd-favourite,” adds Sujith Shetty, Owner of Balmy, Breach Candy.  With the change in taste for pizza evolving globally, things have certainly changed even for restaurateurs. “All over the world, there has been a shift in the way people interact with pizza. The older, traditional pizzerias that popularised the thick crust, cheese laden pizza have been replaced by new-age pizzerias who perfectly balance the need for indulgence with the shift in consumer tastes. People are interested in not only a delicious product and an excellent ambience but attribute equal importance to the provenance and process their food is made from and the effect it has on their lifestyle and health, shares Ayush Jatia, Founder of Nonna’s."
+  },
+  {
+    id: 55,
+    title: "Butter Garlic Naan, Paratha and Amritsari Kulcha Recognized as World's Finest Flatbreads",
+    post_date: 'July 9 2023',
+    genre: 'Food',
+    ref: 'https://www.news18.com/lifestyle/food-butter-garlic-naan-paratha-and-amritsari-kulcha-recognized-as-worlds-finest-flatbreads-8289433.html',
+    thumb: 'https://images.news18.com/ibnlive/uploads/2023/07/image-8-16888865573x2.jpg?impolicy=website&width=510&height=356',
+    description: "Our favourite garlic naan took an outstanding second place, while naan took fifth place overall",
+    detail: "Indian flatbreads have acquired popularity on a global scale, as seen by the most current list published by online food directory Taste Atlas. On July 6, 2023, a list of the top flatbreads from around the world was revealed. A number of Indian flatbreads have achieved rankings inside the top 50, demonstrating both their popularity and culinary prowess.  'Flatbreads have been enjoyed across different cultures for centuries, with each region adding its own distinct flavours and techniques to this culinary creation. While determining the absolute best flatbread would be an impossible task for anyone, we’ve turned to mathematics and counted your votes - as we always do,' read the caption.  Only the top five entries contained two Indian entries prominently. While naan as a whole took fifth place, butter garlic naan impressively got second place. The winner was Roti Canai, a multi-layered, crispy bread from Malaysia that is thought to have Indian origins.  Other Indian breads farther down the list, like paratha, Amritsari kulcha, and plain roti, were praised for their great flavour and texture. Aaloo naan, Kashmiri naan, aloo paratha, and roomali roti were also mentioned among the top 50.  International breads like lavash, pita bread, focaccia, and tortilla also gained prominence in the rankings alongside Indian flatbreads. This exemplifies the great variety of flatbreads seen in many global cuisines."
+  },
+  {
+    id: 56,
+    title: 'Hot DiGiorno Pizza Could Be Coming to a Vending Machine Near You',
+    post_date: 'July 25 2023',
+    genre: 'Food',
+    ref: 'https://www.foodandwine.com/digiorno-pizza-vending-machine-walmart-7564722',
+    thumb: 'https://www.foodandwine.com/thmb/RNJJCAIA9rRQg7bXRwmXGspE_po=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Hot-DiGiorno-Pizza-Could-Be-Coming-to-a-Vending-Machine-Near-You-FT-2-BLOG0723-e13f412aad5d43e3a3518318ddb59ea5.jpg',
+    description: "The brand is testing a pair of 'Pizza kiosks' that take a pizza from frozen to cooked in just a few minutes.",
+    detail: "Perhaps the most painful part of ordering a pizza is the waiting. Unless you head to some grab-and-go spot with the constant, warming glow of a hot light, bringing your pizza from dough to done takes time. (Heck, even ordering a classic NYC slice usually requires a few minutes back in the oven before it's slid over to you on a paper plate.) Tack onto the delivery driver's ride from the restaurant to your house, and the old '30 minutes or less' pizza delivery promise feels like it's pushing the limit.  But DiGiorno doesn't do delivery. That's kind of their whole thing. The Nestlé-owned frozen pizza brand has made it their entire marketing campaign to point out that its product offers restaurant-style pizza from your freezer via your oven in less time than it takes to order one. That doesn't mean, however, that DiGiorno doesn't want you eating its pizza out and about. In fact, the latest technology the brand is testing could be setting up shop wherever you might be hungry for a hot pizza.  DiGiorno is currently trialing two 'pizza kiosk' locations at a Walmart in Colorado as well as at the Nestlé company's Ohio campus. The larger-than-usual vending machines house a commercial-grade oven as well as frozen, premade, 10-inch, thin-crust pizzas currently available in Cheese and Pepperoni options, a Nestlé spokesperson confirmed to Food & Wine. As for speed, DiGiorno's machine outputs a fully-cooked pizza in about three minutes. For now, the pies sell for about $9 each."
+  },
+  {
+    id: 57,
+    title: 'Even Instant Iced Coffee Can Have Foam, Thanks to Maxwell House',
+    post_date: 'July 26 2023',
+    genre: 'Food',
+    ref: 'https://www.foodandwine.com/maxwell-house-foaming-instant-iced-latte-7565817',
+    thumb: 'https://www.foodandwine.com/thmb/30aKaxXWe9GC8wgVSWN8UJNM7WA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Maxwell-House-Instant-Foaming-Iced-Lattes-FT-BLOG0723-a76cf7ade0394d7d8ab3b7353634b307.jpg',
+    description: "The coffee brand has a new innovation for at-home iced latte drinkers.",
+    detail: "It's no secret that instant coffee is better than ever (look no further than this instant iced latte hack). But when it comes to competing with your average coffee chain, Maxwell House is getting innovative. Its newest product brings the barista-made experience home with an instant latte that makes its own foam.  You read that right. In a first-to-market move, Maxwell House's new Iced Latte with Foam line of products will have you rethinking what you expect to come out of one of those little sachets of instant coffee. The steps to making these lattes are the pretty standard instant coffee process: Pour and stir. But once the ice water hits the powdered drink in the bottom of your glass, it adds the extra pizzaz of a layer of foam on top, no milk frother necessary.  “As iced beverages continue to rise in coffee shops, this opens a huge opportunity to continue the growth of cold in the coffee aisle at grocery stores,” Sweta Kannan, director of marketing and coffee innovation at Kraft Heinz, said. 'Our never-before-seen cold-stirred foam technology will allow coffee lovers to save the time and money of going to a coffee shop, and instead inspire them to unleash their inner barista by providing an easy-to-make café-style experience with every sip in three simple steps.'"
+  },
+  {
+    id: 58,
+    title: 'Chipotle Created a Robot to Slice All Those Avocados',
+    post_date: 'July 14 2023',
+    genre: 'Food',
+    ref: 'https://www.foodandwine.com/chipotle-guacamole-robot-autocado-7561277',
+    thumb: 'https://www.foodandwine.com/thmb/cDsAkOXbK6hPoZQlUBsVXGzOrLo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Chipotle-tests-guacamole-robot-FT-BLOG0723-46b3569d851f4da0acc914f6319bb9d7.jpg',
+    description: "Will Chipotle still charge extra for guac when a robot is doing half the work?",
+    detail: "We're not here to defend or decry the price of restaurant guacamole. After all, restaurants are affected by many costs that might be unknown to the average diner. But we will admit that all the slicing and dicing and mincing and mashing that goes into creating the perfect batch of guac is a lot of work — not to mention the potential hazards associated with cutting open an avocado.  Perhaps that's why Chipotle, infamous for reminding customers that its guac will cost extra, is looking to automate the process by testing a new guacamole-making robot, the Autocado.  Autocado is actually defined as a 'cobotic' prototype, which means it's a robot that is meant to function within an existing team of humans (rather than replace them, per se). Chipotle's announcement claims the Autocado is intended to address and alleviate workers from time-consuming tasks identified by its restaurant training managers. According to the brand, a typical batch of guacamole takes 50 minutes to prepare, even with workers dedicated to slicing and scooping avocados in each store.  So how does it work? First, a human loads up to 25 pounds of avocados into the machine, which are then oriented vertically, sliced in half, and automatically cored and peeled before being deposited into one of those familiar large, stainless steel bowls, where the final ingredients are mixed and mashed in (again, by human hands). Chipotle hopes future iterations of the Autocado could also inspect avocados for quality and further reduce waste."
+  },
+  {
+    id: 59,
+    title: "Burger King Thailand's Newest Offering Is Made for Cheese Lovers",
+    post_date: 'July 12 2023',
+    genre: 'Food',
+    ref: 'https://www.foodandwine.com/burger-king-real-cheeseburger-thailand-7559705',
+    thumb: 'https://www.foodandwine.com/thmb/MdEG8ZNTioclOUeB3-LISjuUCL8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Burger-King-Thailand-FT-BLOG0723-8a1df05d6d914b2f8efcca4745da504c.jpg',
+    description: "Burger King Thailand's new meatless menu item is nothing short of unexpected.",
+    detail: "From Taco Bell testing a vegan Crunchwrap to McDonald’s trying out plant-based McNuggets, going meatless is all the rage in the fast food world. And while Burger King's American restaurants have offered Impossible Whoppers for years, a new international product is also getting in on the act. Just not at all in the way you might expect.  This week, Burger King Thailand unveiled a meatless burger. No, not a veggie burger. A literal meatless burger known as the “real cheeseburger,” made with 20 slices of American cheese on a bun. And nothing else.  The menu item dropped on Sunday, July 8, along with a social media post ensuring people, “This is not a joke. This is for real.”  The “burger” is currently selling for 109 Thai baht, or about $3. The, again, “burger,” quickly went viral, with patrons flocking to the nearest Burger King to buy one and post about the experience on TikTok.  Are 20 pieces aren’t enough for you? According to the brand’s Facebook post, you can add two more slices for 20 Thai baht, or about .58 cents.  While a cheesy sandwich sounds delicious to some (i.e., me), others who’ve tested the, once again in quotes, “burger,” say it’s a little much."
+  },
+  {
+    id: 60,
+    title: 'This Fan-Favorite Pepsi Flavor Is Coming Back, But You Can Only Find It at One Restaurant',
+    post_date: 'July 26 2023',
+    genre: 'Food',
+    ref: 'https://www.foodandwine.com/pineapple-pepsi-little-caesars-7557416',
+    thumb: 'https://www.foodandwine.com/thmb/zeu0vVTBNsvL2BgnXDl6Q15k-hU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Pineapple-Pepsi-Back-Available-Only-at-Little-Caesars-FT-BLOG0723-e58a23ec018642c9bdbb3112642105c3.jpg',
+    description: "The fruit-forward Pepsi product hasn't been available since 2020.",
+    detail: "Delicious, refreshing drinks are an essential part of summer. And as more mainstream beverage brands jump on the limited-edition products bandwagon, soda drinkers are getting a chance to try new summery flavors from the likes of Mtn Dew, Pepsi, and more.  Speaking of limited-edition Pepsi, in 2020, the brand dropped a fruity, summer-ready flavor: Pepsi Pineapple. However, any fans that fell in love with it then have been sadly unable to enjoy it since the seasonal offering was phased out. But fear not, as this summer, Pepsi Pineapple is back. However, you'll have to order some pizza to get it.  Starting July 17, Pepsi Pineapple will return exclusively at Little Caesars restaurants. The drink will be part of the Pineapple Pair-Up Combo, playing on the evergreen controversy surrounding whether pineapple belongs on pizza.  'There's always a passionate discussion surrounding pineapple on pizza,' Greg Hamilton, chief marketing officer at Little Caesars, said. 'Together with Pepsi, we're satisfying ALL pineapple lovers, regardless of how they feel about it as a pizza topping. The Pineapple Pair-Up Combo gives our customers an exclusive opportunity to enjoy the tropical taste on their Thin Crust pizza, in their Pepsi, or both.'"
+  },
+  {
+    id: 61,
     title: '',
     post_date: '',
-    genre: 'Fitness',
+    genre: 'Food',
     ref: '',
     thumb: '',
     description: "",
     detail: ""
   },
   {
-    id: 40,
+    id: 62,
     title: '',
     post_date: '',
-    genre: 'Fitness',
+    genre: 'Food',
     ref: '',
     thumb: '',
     description: "",
     detail: ""
   },
+  {
+    id: 63,
+    title: '',
+    post_date: '',
+    genre: 'Food',
+    ref: '',
+    thumb: '',
+    description: "",
+    detail: ""
+  },
+  {
+    id: 64,
+    title: '',
+    post_date: '',
+    genre: 'Food',
+    ref: '',
+    thumb: '',
+    description: "",
+    detail: ""
+  },
+  {
+    id: 65,
+    title: '',
+    post_date: '',
+    genre: 'Food',
+    ref: '',
+    thumb: '',
+    description: "",
+    detail: ""
+  },
+  
 ];
 
 export const ContextData = createContext(data);
