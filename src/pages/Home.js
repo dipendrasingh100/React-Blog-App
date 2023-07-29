@@ -12,7 +12,7 @@ import TPRightTile from "../components/TPRightTile";
 import downArrow from "../assets/arrow.svg";
 import rightArrow from "../assets/arrow-1.svg";
 
-function generateRandomNumbers(n) {
+export function generateRandomNumbers(n) {
   const min = 1;
   const max = 60;
   const randomNumbers = [];
