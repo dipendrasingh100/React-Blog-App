@@ -1,8 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { handleLink } from "../pages/Home";
 
 const TileWithoutImage = (props) => {
   return (
-    <div className="text-cont2">
+    <Link to={`/${props.genre.toLowerCase()}/${props.id}`} onClick={handleLink}>
+      <div className="text-cont2">
         <div className="bottom-subheading-container">
           <div className="bottom-subheading">{props.title}</div>
         </div>
@@ -13,6 +16,7 @@ const TileWithoutImage = (props) => {
           <span>{props.genre}</span> / {props.p_date}
         </div>
       </div>
+    </Link>
   );
 };
 

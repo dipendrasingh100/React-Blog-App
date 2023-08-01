@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/home.css";
+import { Link } from "react-router-dom";
 
 const Cover = (props) => {
   return (
@@ -7,13 +8,15 @@ const Cover = (props) => {
       className={`cover ${props.cls === "img1" ? "img1" : "img2"}`}
       style={{ backgroundImage: `url(${props.image})` }}
     >
-      <div className="cover-title-conatiner">
-        <div className="cover-subheading">{props.title}</div>
-      </div>
-      <div className="tile-foot fcover">
-        <span>{props.genre}</span> / {props.p_date}
-      </div>
-      <div className="bottom-line-cover"></div>
+      <Link to={`/${props.genre.toLowerCase()}/${props.id}`}>
+        <div className="cover-title-conatiner">
+          <div className="cover-subheading">{props.title}</div>
+        </div>
+        <div className="tile-foot fcover">
+          <span>{props.genre}</span> / {props.p_date}
+        </div>
+        <div className="bottom-line-cover"></div>
+      </Link>
     </div>
   );
 };

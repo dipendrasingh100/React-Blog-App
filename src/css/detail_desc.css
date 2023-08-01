@@ -1,0 +1,262 @@
+
+.dd-flex-container {
+    display: flex;
+    margin-top: 15px;
+}
+
+.dd-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 25%;
+    gap: 2rem;
+}
+
+.dd_content {
+    height: fit-content;
+    width: 50%;
+}
+
+.like-box,
+.share-box {
+    color: #939393;
+    gap: 2rem;
+    width: 55%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+.post_header,
+.post_footer,
+.dd-tile-foot {
+    display: flex;
+    margin: 15px 0;
+}
+
+.post_header .written_by {
+    visibility: hidden;
+}
+
+.post_header{
+    justify-content: space-between;
+}
+
+.author_box{
+    display: flex;
+}
+
+.writer-desc {
+    line-height: 23px;
+    font-size: 0.8rem;
+    color: #A2A2A2;
+    margin-left: -25px;
+}
+
+.profile img {
+    width: 65%;
+}
+
+.author {
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.tag_block {
+    display: flex;
+    gap: 15px;
+    color: #A2A2A2;
+    margin: 30px 0;
+}
+
+.post_thumbnail {
+    margin: 30px 0;
+}
+
+.post_thumbnail img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.dd-tile-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 5vh;
+}
+
+.dd-bottom-heading {
+    margin: 3vw 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.dd-tile {
+    display: flex;
+    flex-direction: column;
+    height: 58vh;
+}
+
+.dd-cover {
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+}
+
+.dd-tile .subheading-container {
+    margin: 25px 0;
+}
+
+.dd-tile-foot {
+    margin-top: auto;
+    font-size: 0.8rem;
+    color: #908d8d;
+}
+
+.dd-tile-foot {
+    width: 100%;
+    margin: auto;
+}
+
+.dd-tile-foot .profile img {
+    width: 45%;
+}
+
+.dd-tile-foot .writer-desc {
+    font-size: 0.5rem;
+    line-height: 16px;
+    margin-left: -45px;
+}
+
+.dd-tile-foot .author {
+    font-size: 1rem;
+}
+
+.back-btn{
+    text-align: end;
+}
+
+.css-button-sliding-to-left--black {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #212529;
+    color: #212529;
+  }
+  .css-button-sliding-to-left--black:hover {
+    color: #fff;
+  }
+  .css-button-sliding-to-left--black:hover:after {
+    width: 100%;
+  }
+  .css-button-sliding-to-left--black:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #212529;
+  }
+
+@media screen and (max-width: 500px) {
+    .heading{
+        font-size: 1.2rem;
+    }
+    .dd-left{
+        display: none;
+    }
+
+    .dd_content{
+        width: 100%;
+    }
+
+    .post_header{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .author_box{
+        align-items: center;
+    }
+
+    .post_header .written_by{
+        display: none;
+    }
+    
+    .dd-tile-container{
+        grid-template-columns: 1fr;
+    }
+
+    .dd-tile{
+        flex-direction: row-reverse;
+        height: unset;
+    }
+
+    .dd-cover{
+        width: 100px;
+        height: 5rem;
+    }
+
+    .subheading-container{
+        margin-top: 0px !important;
+        height: 40px;
+    }
+    
+    .subheading{
+        font-size: 1rem;
+    }
+    .claps{
+       margin-bottom: 50px;
+    }
+    
+    .writer-desc{
+        margin-left: unset !important;
+    }
+    
+    .dd-tile-foot .author{
+        color: #939393;
+        font-size: 0.8rem;
+    }
+    
+    .dd-tile-foot .profile{
+        display: none;
+    }
+
+    .dd-tile-foot .written_by{
+        display: none;
+    }
+    .dd-tile-foot .date_time{
+        display: none;
+    }
+    .dd-bottom-heading{
+        margin: 30px 0;
+    }
+}

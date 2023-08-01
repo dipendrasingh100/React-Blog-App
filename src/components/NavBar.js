@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../css/navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -13,16 +13,19 @@ const NavBar = () => {
   return (
     <header>
       <div className="title-cont">
-        <div>
+        <Link to={"/"}>
           <div className="tt">The</div>
           <div className="th">Siren</div>
-        </div>
+        </Link>
         <FontAwesomeIcon
           icon={faBars}
           size="xl"
-          className={`burger-icon ${ isRotated ? 'burger-tn' : ''}`}
+          className={`burger-icon ${isRotated ? 'burger-tn' : ''}`}
           onClick={handleBurger}
         />
+        {/* <div className="get_started">
+          Get Started
+        </div> */}
       </div>
 
       <nav className={`navbar ${isRotated ? 'active' : ''}`}>

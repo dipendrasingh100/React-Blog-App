@@ -24,6 +24,11 @@ export function generateRandomNumbers(n) {
   return randomNumbers;
 }
 
+export const handleLink = () => {
+  // Scroll to the top of the page
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
 const Home = () => {
   const data = useContext(ContextData);
   const first3_cover = generateRandomNumbers(3);
@@ -34,6 +39,7 @@ const Home = () => {
     <>
       <div className="thumb-cont">
         <MainCover
+          id={data[first3_cover[0]].id}
           title={data[first3_cover[0]].title}
           p_date={data[first3_cover[0]].post_date}
           image={data[first3_cover[0]].thumb}
@@ -45,6 +51,7 @@ const Home = () => {
               <Cover
                 key={index}
                 cls={`img${index}`}
+                id={data[value].id}
                 title={data[value].title}
                 p_date={data[value].post_date}
                 image={data[value].thumb}
@@ -60,6 +67,7 @@ const Home = () => {
         {latest_tile.map((value, index) => (
           <TileWithImage
             key={index}
+            id={data[value].id}
             title={data[value].title}
             image={data[value].thumb}
             desc={data[value].description}
@@ -74,6 +82,7 @@ const Home = () => {
       <div className="ls-container">
         <LeftTile
           cls={"ls-first"}
+          id={data[latest_articles[0]].id}
           title={data[latest_articles[0]].title}
           image={data[latest_articles[0]].thumb}
           desc={data[latest_articles[0]].description}
@@ -85,6 +94,7 @@ const Home = () => {
             index !== 0 && (
               <LeftTile
                 key={index}
+                id={data[value].id}
                 title={data[value].title}
                 image={data[value].thumb}
                 desc={data[value].description}
@@ -105,6 +115,7 @@ const Home = () => {
         <Subtitle title={"Top Posts"} />
         <TPRightTile
           cls={"tp-first"}
+          id={data[latest_articles[0]].id}
           title={data[latest_articles[0]].title}
           image={data[latest_articles[0]].thumb}
           p_date={data[latest_articles[0]].post_date}
@@ -115,6 +126,7 @@ const Home = () => {
             index !== 0 && (
               <TPRightTile
                 key={index}
+                id={data[value].id}
                 title={data[value].title}
                 image={data[value].thumb}
                 p_date={data[value].post_date}
@@ -125,6 +137,7 @@ const Home = () => {
       </div>
       <div className="ls-img-container">
         <MainCover2
+          id={data[first3_cover[0]].id}
           title={data[first3_cover[0]].title}
           p_date={data[first3_cover[0]].post_date}
           image={data[first3_cover[0]].thumb}
@@ -138,6 +151,7 @@ const Home = () => {
         {first3_cover.map((value, index) => (
           <TileWithoutImage
             key={index}
+            id={data[value].id}
             title={data[value].title}
             desc={data[value].description}
             p_date={data[value].post_date}
@@ -147,7 +161,7 @@ const Home = () => {
       </div>
 
       <div className="more">
-        <p>LOAD MORE</p><img src={rightArrow} alt="not found" /> 
+        <p>VIEW MORE</p><img src={rightArrow} alt="not found" />
       </div>
     </>
   );
