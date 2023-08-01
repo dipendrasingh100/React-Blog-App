@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareFacebook, faSquareInstagram, faSquareTwitter, faSquareYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const DetailDesc = () => {
-  const [ _, path, id ] = useLocation().pathname.split("/")
+  const [ , path, id ] = useLocation().pathname.split("/")
   const data = useContext(ContextData).filter(item => (item.id === parseInt(id)))[0]
   const para = data.detail.split("  ")
   return (
