@@ -11,6 +11,7 @@ import TileWithoutImage from "../components/TileWithoutImage";
 import TPRightTile from "../components/TPRightTile";
 import downArrow from "../assets/arrow.svg";
 import rightArrow from "../assets/arrow-1.svg";
+import ImageSlider from "../components/ImageSlider";
 
 export function generateRandomNumbers(n) {
   const min = 1;
@@ -59,6 +60,9 @@ const Home = () => {
               />
             )
         )}
+      </div>
+      <div className="image-slider-cont">
+        <ImageSlider slides={data.slice(0,3)} />
       </div>
 
       <Subtitle title="The Latest" />
