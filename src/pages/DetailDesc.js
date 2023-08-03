@@ -3,7 +3,7 @@ import "../css/detail_desc.css";
 import rythm from "../assets/rythm.svg";
 import share from "../assets/share.svg";
 import avtar from "../assets/Mask Group 16.png";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { ContextData } from "../components/ContextData";
 import Suggestion from "../components/Suggestion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
