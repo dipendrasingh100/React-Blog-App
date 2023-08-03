@@ -29,13 +29,12 @@ header {
   font-size: 1.5rem;
   font-weight: 500;
   color: #000000;
+  align-self: center;
 }
 
 .th {
   font-size: 3.5rem;
   font-weight: 700;
-  position: relative;
-  right: 8%;
   color: #000000;
 }
 
@@ -117,8 +116,6 @@ header {
 
   .tt {
     font-size: 0.9rem;
-    left: unset;
-    bottom: 4px;
   }
 
   .burger-icon {

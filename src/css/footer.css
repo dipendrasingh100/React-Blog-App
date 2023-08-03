@@ -1,0 +1,196 @@
+footer {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    /* border: 1px solid black; */
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    clear: both;
+}
+
+.grid {
+    /* border: 1px solid red; */
+    display: grid;
+}
+
+.grid-cols-1 {
+    grid-template-columns: 1fr;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+
+.items-center {
+    align-items: center;
+}
+
+.text {
+    /* border: 1px solid red; */
+    margin-bottom: 1.2rem;
+}
+
+.social-icons2 {
+    display: flex;
+    gap: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-gray {
+    color: grey;
+}
+
+.gap-6 {
+    gap: 1.5rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-span-3 {
+    grid-column: span 3/span 3;
+}
+
+.gap-3 {
+    gap: .75rem;
+}
+
+.block {
+    display: block;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.mb-2 {
+    margin-bottom: .5rem;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.rounded {
+    border-radius: .25rem;
+}
+
+.text-dark {
+    color: black;
+}
+
+.order-first {
+    order: -9999;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.mb-10 {
+    margin-bottom: 2.5rem;
+}
+
+.h-12 {
+    height: 3rem;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-3xl {
+    font-size: 1.6rem;
+    line-height: 2.25rem;
+}
+
+.gap-5 {
+    gap: 1.25rem;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-2 {
+    gap: .5rem;
+}
+
+.order-last {
+    order: 9999;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex-col-900px {
+    flex-direction: column;
+}
+
+.th2 {
+    font-size: 2.2rem;
+    right: 5%;
+}
+
+.flex-warp {
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:900px) {
+    .grid-cols-5 {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .items-start {
+        align-items: flex-start;
+    }
+
+    .text-3xl {
+        font-size: 1.87rem;
+        line-height: 2.25rem;
+    }
+
+    .text-start {
+        text-align: start;
+    }
+
+    .gap-12 {
+        gap: 3rem;
+    }
+
+    .order-first-900 {
+        order: -99999;
+    }
+
+    .flex-900 {
+        /* border: 1px solid black; */
+        display: flex;
+    }
+
+    .order-last-900 {
+        order: 9999;
+    }
+
+}
