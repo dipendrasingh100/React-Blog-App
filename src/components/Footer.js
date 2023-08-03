@@ -70,12 +70,12 @@ const Footer = () => {
                     <div className="flex flex-warp gap-5 flex-col-900px items-start mb-10">
                         <div className="flex items-center gap-2 ">
                             <FontAwesomeIcon icon={faMobileScreenButton} size="lg" />
-                            <a target="_blank" href="tel:000000000" className='text-dark'>00000000000</a>
+                            <a href="tel:000000000" className='text-dark'>00000000000</a>
                         </div>
                         <div className="flex flex-warp gap-5 flex-col-900px items-start">
                             <div className="flex items-center gap-2 text-dark">
                                 <FontAwesomeIcon icon={faEnvelope} size="lg" />
-                                <a target="_blank" href="mailto:support@siren.in" className='text-dark'>support@siren.in</a>
+                                <a href="mailto:support@siren.in" className='text-dark'>support@siren.in</a>
                             </div>
                         </div>
                     </div>
