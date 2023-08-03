@@ -26,7 +26,7 @@ const Suggestion = (props) => {
                                 </div>
                                 <div className="writer-desc">
                                     <div className="written_by">WRITTEN BY</div>
-                                    <div className="author">Dmitry Nozhenko</div>
+                                    <div className="author">Dipendra Singh</div>
                                     <div className="date_time">Jan 28 2019 - 10 min read</div>
                                 </div>
                             </div>

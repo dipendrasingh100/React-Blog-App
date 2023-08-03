@@ -265,7 +265,6 @@
 .rs-ad-container {
   height: 90vh;
   width: 30%;
-  border: 1px solid black;
   float: right;
   display: flex;
   justify-content: center;

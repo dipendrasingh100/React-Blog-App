@@ -1,18 +1,23 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "../css/detail_desc.css";
 import rythm from "../assets/rythm.svg";
 import share from "../assets/share.svg";
 import avtar from "../assets/Mask Group 16.png";
-import { Link, useLocation} from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { ContextData } from "../components/ContextData";
 import Suggestion from "../components/Suggestion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareFacebook, faSquareInstagram, faSquareTwitter, faSquareYoutube } from "@fortawesome/free-brands-svg-icons";
+import { handleLink } from "./Home";
 
 const DetailDesc = () => {
-  const [ , path, id ] = useLocation().pathname.split("/")
+  const navigate = useNavigate()
+  const [display, setDisplay] = useState("none")
+  const [,, id] = useLocation().pathname.split("/")
   const data = useContext(ContextData).filter(item => (item.id === parseInt(id)))[0]
-  const para = data.detail.split("  ")
+  const para1 = data.detail.split("  ").slice(0, 2)
+  const para2 = data.detail.split("  ").slice(2)
+
   return (
     <>
       <div className="dd-flex-container">
@@ -35,7 +40,7 @@ const DetailDesc = () => {
               </div>
               <div className="writer-desc">
                 <div className="written_by">WRITTEN BY</div>
-                <div className="author">Dmitry Nozhenko</div>
+                <div className="author">Dipendra Singh</div>
                 <div className="date_time">Jan 28 2019 - 10 min read</div>
               </div>
             </div>
@@ -51,11 +56,19 @@ const DetailDesc = () => {
           </div>
 
           <div className="post_desc">
-            {para.map((item, index) => (
+            {para1 && para1.map((item, index) => (
               <p key={index}>
                 {item}
               </p>
             ))}
+            {para2 && para2.map((item, index) => (
+              <div key={index} style={{ display: display }}>
+                <p >
+                  {item}
+                </p>
+              </div>
+            ))}
+            <span onClick={() => display === "none" ? setDisplay("block") : setDisplay("none")} style={{ color: "blue", cursor: "pointer" }}>{display === "none" ? "read more..." : "read less..."}</span>
           </div>
           <div className="tag_block">
             <span>React</span>
@@ -72,20 +85,22 @@ const DetailDesc = () => {
             </div>
             <div className="writer-desc">
               <div className="written_by">WRITTEN BY</div>
-              <div className="author">Dmitry Nozhenko</div>
+              <div className="author">Dipendra Singh</div>
               <div className="date_time">Jan 28 2019 - 10 min read</div>
             </div>
           </div>
           <div className="back-btn">
-            <Link to={'/'+path}>
-            <button className="css-button-sliding-to-left--black">Go Back</button>
-            </Link>
+            <button className="css-button-sliding-to-left--black" onClick={() => {
+              navigate(-1)
+              handleLink()
+            }}>Go Back</button>
+
           </div>
         </div>
       </div>
       <div className="dd-bottom-container">
         <div className="dd-bottom-heading">More From Siren</div>
-        <Suggestion image={data.thumb} category={data.genre}/>
+        <Suggestion image={data.thumb} category={data.genre} />
       </div>
     </>
   );

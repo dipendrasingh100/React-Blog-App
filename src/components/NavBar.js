@@ -9,6 +9,10 @@ const NavBar = () => {
   function handleBurger() {
     setIsRotated(!isRotated)
   }
+
+  function closeBurger() {
+    setIsRotated(false)
+  }
   // document.querySelector(".navbar"). 
   return (
     <header>
@@ -35,7 +39,7 @@ const NavBar = () => {
               to="/"
               style={({ isActive }) => ({
                 color: isActive ? "grey" : "black",
-              })}
+              })} onClick={closeBurger}
             >
               Home
             </NavLink>
@@ -45,7 +49,7 @@ const NavBar = () => {
               to="/bollywood"
               style={({ isActive }) => ({
                 color: isActive ? "grey" : "black",
-              })}
+              })} onClick={closeBurger}
             >
               Bollywood
             </NavLink>
@@ -55,7 +59,7 @@ const NavBar = () => {
               to="/technology"
               style={({ isActive }) => ({
                 color: isActive ? "grey" : "black",
-              })}
+              })} onClick={closeBurger}
             >
               Technology
             </NavLink>
@@ -65,7 +69,7 @@ const NavBar = () => {
               to="/hollywood"
               style={({ isActive }) => ({
                 color: isActive ? "grey" : "black",
-              })}
+              })} onClick={closeBurger}
             >
               Hollywood
             </NavLink>
@@ -75,7 +79,7 @@ const NavBar = () => {
               to="/fitness"
               style={({ isActive }) => ({
                 color: isActive ? "grey" : "black",
-              })}
+              })} onClick={closeBurger}
             >
               Fitness
             </NavLink>
@@ -85,7 +89,7 @@ const NavBar = () => {
               to="/food"
               style={({ isActive }) => ({
                 color: isActive ? "grey" : "black",
-              })}
+              })} onClick={closeBurger}
             >
               Food
             </NavLink>

@@ -12,6 +12,7 @@ import TPRightTile from "../components/TPRightTile";
 import downArrow from "../assets/arrow.svg";
 import rightArrow from "../assets/arrow-1.svg";
 import ImageSlider from "../components/ImageSlider";
+import Advertise from "../components/Advertise";
 
 export function generateRandomNumbers(n) {
   const min = 1;
@@ -113,7 +114,7 @@ const Home = () => {
       </div>
 
       <div className="rs-ad-container">
-        <div className="ad-title">Advertisement</div>
+        <Advertise/>
       </div>
       <div className="rs-tposts-container">
         <Subtitle title={"Top Posts"} />
