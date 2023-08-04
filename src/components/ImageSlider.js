@@ -1,41 +1,29 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import "../css/image_slider.css"
 
 const ImageSlider = ({ slides }) => {
     const [currentIndex, setCurrentIndex] = useState(0)
-    const sliderStyles = {
-        height: '100%',
-        position: '100%',
+    useEffect(() => {
+        const slideInterval = setInterval(() => {
+            currentIndex === 2 ? setCurrentIndex(0) : setCurrentIndex(currentIndex + 1);
+        }, 3000)
+        return () => clearInterval(slideInterval)
+    }, [currentIndex])
 
-    }
-    const slideStyles = {
-        width: '100%',
-        height: '100%',
-        borderRadius: '10px',
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundImage: `url(${slides[currentIndex].thumb})`
-    }
-
-    const dotContainerStyles = {
-        display:'none',
-        justifyContent: 'center' 
-    }
-
-    const dotStyle = {
-        margin: '0 3px',
-        cursor:"pointer",
-        fontSize: '50px'
-    }
-
-    const goToSlide = (index)=>{
+    const goToSlide = (index) => {
         setCurrentIndex(index)
+
     }
     return (
-        <div style={sliderStyles}>
-            <div style={slideStyles}></div>
-            <div style={dotContainerStyles} className='dot-container'>{slides.map((slide, index) => (
-                <div key={index} style={dotStyle} onClick={()=>goToSlide(index)}><div className="dot">•</div></div>
-            ))}</div>
+        <div className='sliderStyles'>
+            <div style={{ backgroundImage: `url(${slides[currentIndex].thumb})` }} className='slideStyles'></div>
+            <div className='dot-container'>
+                {slides.map((slide, index) => (
+                    <div key={index} className='dotStyle' onClick={() => goToSlide(index)}>
+                        <div className="dot" style={index === currentIndex ? { backgroundColor: 'black' } : null}></div>
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }

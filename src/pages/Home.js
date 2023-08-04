@@ -113,9 +113,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="rs-ad-container">
-        <Advertise/>
-      </div>
+      <Advertise/>
       <div className="rs-tposts-container">
         <Subtitle title={"Top Posts"} />
         <TPRightTile
