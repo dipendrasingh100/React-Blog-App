@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../css/footer.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareFacebook, faSquareInstagram, faSquareTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Link } from 'react-router-dom';
 
-import { faCirclePlus, faEnvelope, faMobileScreenButton } from '@fortawesome/free-solid-svg-icons';
+import { faCircleMinus, faCirclePlus, faEnvelope, faMobileScreenButton } from '@fortawesome/free-solid-svg-icons';
 import { handleLink } from '../pages/Home';
 
 const Footer = () => {
+    const [res, setRes] = useState(false)
+    const [ser, setSer] = useState(false)
     return (
         <footer className='footer-container'>
             <hr />
@@ -29,7 +31,7 @@ const Footer = () => {
                         <FontAwesomeIcon icon={faLinkedin} size="lg" style={{ color: "#b3b3b3", }} />
                     </div>
                 </div>
-                <div className="flex-900 mx-auto col-span-3 hidden gap-6 gap-12">
+                <div className="flex-900 mx-auto col-span-3 hidden-mob gap-6 gap-12">
                     <div>
                         <h2>Services</h2>
                         <div className='flex flex-col text-gray gap-3'>
@@ -52,15 +54,27 @@ const Footer = () => {
                 <div className="block hidden">
                     <div className="w-full">
                         <div style={{ width: '100%' }} className="mb-2 overflow-hidden rounded mx-auto hover:shadow">
-                            <div className="flex cursor-pointer h-12 items-center justify-between px-4 text-dark">
+                            <div className="flex cursor-pointer h-12 items-center justify-between px-4 text-dark" onClick={() => { setSer(!ser) }}>
                                 <p>Services</p>
-                                <FontAwesomeIcon icon={faCirclePlus} size="lg" />
+                                <FontAwesomeIcon icon={ ser ? faCircleMinus: faCirclePlus } size="lg" />
+                            </div>
+                            <div className={`flex flex-col text-gray gap-3 close ${ser && 'open'}`}>
+                                <Link to={'/technology'} onClick={handleLink}><span className='text-gray'>Technology</span></Link>
+                                <Link to={'/bollywood'} onClick={handleLink}><span className='text-gray'>Bollywood</span></Link>
+                                <Link to={'/hollywood'} onClick={handleLink}><span className='text-gray'>Hollywood</span></Link>
+                                <Link to={'/fitness'} onClick={handleLink}><span className='text-gray'>Fitness</span></Link>
+                                <Link to={'/food'} onClick={handleLink}><span className='text-gray'>Food</span></Link>
                             </div>
                         </div>
                         <div style={{ width: '100%' }} className="mb-2 overflow-hidden rounded mx-auto hover:shadow">
-                            <div className="flex cursor-pointer h-12 items-center justify-between px-4 text-dark">
+                            <div className="flex cursor-pointer h-12 items-center justify-between px-4 text-dark" onClick={() => { setRes(!res) }}>
                                 <p>Resources</p>
-                                <FontAwesomeIcon icon={faCirclePlus} size="lg" />
+                                <FontAwesomeIcon icon={ res ? faCircleMinus: faCirclePlus } size="lg" />
+                            </div>
+                            <div className={`flex flex-col text-gray gap-3 close ${res && 'open'}`} >
+                                <Link to={'/github'}><span className='text-gray'>Github</span></Link>
+                                <Link to={'/help'}><span className='text-gray'>Help</span></Link>
+                                <Link to={'/contact'}><span className='text-gray'>Contact</span></Link>
                             </div>
                         </div>
                     </div>

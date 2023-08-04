@@ -141,10 +141,6 @@ footer {
     order: 9999;
 }
 
-.hidden {
-    display: none;
-}
-
 .flex-col-900px {
     flex-direction: column;
 }
@@ -156,6 +152,25 @@ footer {
 
 .flex-warp {
     flex-wrap: wrap;
+}
+
+.block{
+    display: block;
+}
+
+.close{
+    height: 0px;
+    transition: .2s ease-in-out;
+}
+
+.open{
+    margin-left: 18px;
+    height: 145px;
+    transition: .2s ease-in-out;
+}
+
+.hidden-mob{
+    display: none;
 }
 
 @media screen and (min-width:900px) {
@@ -191,6 +206,10 @@ footer {
 
     .order-last-900 {
         order: 9999;
+    }
+
+    .hidden {
+        display: none;
     }
 
 }
