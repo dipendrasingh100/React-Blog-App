@@ -13,7 +13,7 @@ import { handleLink } from "./Home";
 const DetailDesc = () => {
   const navigate = useNavigate()
   const [display, setDisplay] = useState("none")
-  const [,, id] = useLocation().pathname.split("/")
+  const [, , id] = useLocation().pathname.split("/")
   const data = useContext(ContextData).filter(item => (item.id === parseInt(id)))[0]
   const para1 = data.detail.split("  ").slice(0, 2)
   const para2 = data.detail.split("  ").slice(2)
@@ -94,7 +94,6 @@ const DetailDesc = () => {
               navigate(-1)
               handleLink()
             }}>Go Back</button>
-
           </div>
         </div>
       </div>

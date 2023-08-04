@@ -605,53 +605,103 @@ const data = [
   },
   {
     id: 61,
-    title: '',
-    post_date: '',
+    title: 'The Relationship Between Debt and Global Hunger: A Special IPES-Food Report',
+    post_date: 'July 25 2023',
     genre: 'Food',
-    ref: '',
-    thumb: '',
-    description: "",
-    detail: ""
+    ref: 'https://foodtank.com/news/2023/03/the-relationship-between-debt-and-global-hunger-a-special-ipes-food-report/',
+    thumb: 'https://foodtank.com/wp-content/uploads/2023/03/Max_Featured-Image-1.png',
+    description: "A debt crisis is pushing millions more people around the world into hunger.",
+    detail: "The International Panel of Experts on Sustainable Food Systems (IPES-Food) released a special report sounding the alarm on global food insecurity and debt crises. The report finds that 349 million people are facing acute starvation and many more will experience hunger with food prices remaining at historic highs and countries failing to meet debt repayments.  In “Breaking the Cycle of Unsustainable Food Systems, Hunger, and Debt,” IPES-Food reports that the COVID-19 pandemic and Russian invasion of Ukraine contributed to rising food prices in the last two years.  “Although there has been some easing of food prices in recent months, it is unpredictable what the fallout from the interplay with the debt crisis will be,” Jennifer Clapp, Canada Research Chair in Global Food Security and Sustainability at the University of Waterloo, Ontario and co-author of the report, tells Food Tank. “But we are seeing food price inflation remaining higher than overall inflation, and this is deeply troubling.”  And now authors state that low- and middle-income countries (LMICs) are threatened by a worsening debt crisis. IPES-Food finds 60 percent of low-income countries and 30 percent of middle-income countries are at high risk of defaulting on their debt. According to the report, Zambia, Sri Lanka, and Suriname defaulted already. Meanwhile, countries including Ghana and Pakistan are at risk of doing so.  The report highlights four critical ways that unsustainable food systems deepen the debt crisis for dozens of LMICs. These nations face import dependencies for food and fertilizers, which forces them to rely on cash crops to repay debts and prevents them from diversifying crops. Additionally, decades of divestment from social services and domestic agricultural production have further exacerbated the challenges. As food prices spike and crash, farmers find themselves unable to compete with large corporations. And the worsening climate crisis is increasing uncertainty, destroying harvests and deepening farmer debt."
   },
   {
     id: 62,
-    title: '',
-    post_date: '',
+    title: 'Did You Know? Meta CEO Mark Zuckerberg Eats 4,000 Calories Every Day',
+    post_date: 'August 4 2023',
     genre: 'Food',
-    ref: '',
-    thumb: '',
-    description: "",
-    detail: ""
+    ref: 'https://food.ndtv.com/news/did-you-know-meta-ceo-mark-zuckerberg-eats-4-000-calories-every-day-4269482',
+    thumb: 'https://c.ndtvimg.com/2023-08/6bcun6n_mark-zuckerberg_625x300_04_August_23.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350',
+    description: "Mark Zuckerberg took to Threads to share his love for McDonald's food and the fact that he eats nearly 4,000 calories every day.",
+    detail: "The diets of our favourite celebrities are a source of much curiousity. We often love to read about what famous people eat to keep themselves fit in spite of their busy schedules. This diet discussion is not just limited to film personalities but even CEOs of big tech companies like Twitter, Meta and more. Billionaire Elon Musk regularly shares posts about the food he eats and the diet he follows. And now, Meta CEO Mark Zuckerberg too offered an insight into the diet regime he follows.  The information was shared on Twitter-rival app Threads by Meta CEO Mark Zuckerberg. Popular fast food chain McDonald's had posted an image asking their followers if they wanted anything from their outlets. A flurry of comments erupted - but the one that caught our attention was the one by Zuckerberg. '20 nuggets, a quarter pounder, large fries, Oreo McFlurry, apple pie, and maybe some side cheeseburgers for later,' he wrote in his tweet."
   },
   {
     id: 63,
-    title: '',
-    post_date: '',
+    title: 'Street Vendor Makes Paratha Doused In Excessive Oil - "Heart Attack," Says Internet',
+    post_date: 'August 4 2023',
     genre: 'Food',
-    ref: '',
-    thumb: '',
-    description: "",
-    detail: ""
+    ref: 'https://food.ndtv.com/news/street-vendor-makes-paratha-doused-in-excessive-oil-heart-attack-says-internet-4268041',
+    thumb: 'https://c.ndtvimg.com/2023-08/irq730c_paratha-in-oil_625x300_04_August_23.jpg',
+    description: "The video of the making of paratha by a street vendor has left the internet in shock. The reason was the copious quantities of oil used in the video.",
+    detail: "There is something about street food which is so unmissable. Whether it is crispy sev puri or a hearty aloo tikki - we can't help dig into plate after plate of these treats. In the northern areas of the country, paratha is also a popular dish that is available on the street-side stalls. Vendors often serve parathas with chole, dal or as it is. Recently, however, the video of the making of a paratha by a street vendor has left the internet in shock. The reason was the copious quantity of oil used in the video. The video was shared on Instagram by user Gurwinder Singh Maan, who runs a travel and food blog by the name of @gsfoodtravels. The clip of the paratha has raked in over 1.9 million views and 28.7k likes. 'Punjab ka healthy paratha,' he wrote in the caption of the post. In the clip, we could see a half-cooked paratha on an iron griddle or tawa. As the paratha started to brown, the street vendor poured oil onto it from a huge tin canister. The amount of oil used was quite excessive and unnecessary. Then, he flipped over the paratha and cooked it from the other side, draining the excessive oil.  A flurry of reactions poured into the paratha video shared by the Instagram blogger. Many said that this generous use of oil could prove harmful to heart health. '30 ka paratha 30 lakh ka transplant,' wrote one user. 'First bite will taste like heaven. The second one will take you there,' commented another user. 'Bro using food oil like engine oil!'"
   },
   {
     id: 64,
-    title: '',
-    post_date: '',
+    title: 'French Fries In The Shape Of Small Spoons Have Left The Internet Impressed',
+    post_date: 'August 4 2023',
     genre: 'Food',
-    ref: '',
-    thumb: '',
-    description: "",
-    detail: ""
+    ref: 'https://food.ndtv.com/news/confusing-or-convenient-these-spoon-shaped-fries-are-winning-the-internet-4265408',
+    thumb: 'https://c.ndtvimg.com/2023-08/nk70bh18_spoon-fries_625x300_03_August_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350',
+    description: "A Twitter user shared a picture of interesting spoon-shaped fries that seemed to be a much-needed innovation going by reactions online.",
+    detail: "No matter which dish we are having, a side of French fries can make it taste even more delicious. Whether it's a grilled sizzler or a scrumptious burger, fries can go a long way in improving the taste of our favourite dishes. Pairing French fries with dips or sauces can enhance their taste to a whole new level! Among all our favourite dips, the classic ketchup is the one we feel goes best with French fries. And now, a new way of scooping in more ketchup with each French fry has piqued our curiousity. A Twitter user shared a picture of interesting spoon-shaped fries that seemed to be a much-needed innovation. Take a look:  French Fries In The Shape Of Small Spoons Have Left The Internet ImpressedA Twitter user shared a picture of interesting spoon-shaped fries that seemed to be a much-needed innovation going by reactions online.Aditi AhujaUpdated: August 04, 2023 11:47 ISTRead Time:2 min  French Fries In The Shape Of Small Spoons Have Left The Internet Impressed  Not your usual fries, these ones are shaped like spoons.Photo: Twitter/TrungTPhanHighlightsThese fries in the shape of a spoon have been winning the internetThey were shared on Twitter and they were clearly a hitCheck out how the internet reacted and responded to the ideaNo matter which dish we are having, a side of French fries can make it taste even more delicious. Whether it's a grilled sizzler or a scrumptious burger, fries can go a long way in improving the taste of our favourite dishes. Pairing French fries with dips or sauces can enhance their taste to a whole new level! Among all our favourite dips, the classic ketchup is the one we feel goes best with French fries. And now, a new way of scooping in more ketchup with each French fry has piqued our curiousity. A Twitter user shared a picture of interesting spoon-shaped fries that seemed to be a much-needed innovation. Take a look:The perfect product-market fit pic.twitter.com/ddltISoZ0a— Trung Phan (@TrungTPhan) August 1, 2023Also Read: This Egg French Fries Recipe Will Make You Forget About Regular Fries  The photo was shared by user @TrungTPhan on Twitter. 'The perfect product-market fit,'' he wrote in the caption. The post has received over 435k views and hundreds of comments and likes. In the click, we could see how the shape of the usual French fries had been transformed and made into a little spoon. Thus, one end of the French fries could be used to scoop out extra ketchup, mayonnaise or any other dip of choice. Thus, you would not need to take extra fries or dip them a second time.  The unique concept was actually a part of a contest launched by the popular ketchup brand Heinz in July 2022. On the occasion of French Fry Day, they announced that they were giving away a couple of bags to UK residents. However, the spoon-shaped fries have been going viral once again on Twitter.  A number of internet users reacted to the spoon-shaped fries that surfaced online. 'The perfect product doesn't ex...,' said one user while another wrote, 'Nah this is...this is pretty smart!' Some pointed out that billionaire and Twitter owner Elon Musk too had liked the unique concept of spoon-shaped fries.  Heinz CEO: 'We need a way to boost ketchup consumption and horizontally integrate into the utensil market.'  Heinz R&D: 'You aren\'t gonna believe this, but I think I may have just the thing.'— Prestige☢️ (@S0meW0rri3s) August 1, 2023Take my money!— Larry Caughlan (@larrycaughlan) August 1, 2023Wait, you've never called them ketchup straws?— LiCHtsLiCH (@Barbaneth) August 2, 2023So convenient to eat— Meenali Sharma (@meenali20) August 2, 2023Fries will never be the same again! 😂— mikegrantis (@mikegrantis) August 1, 2023What did you think of the spoon-shaped fries? Tell us in the comments.ADVERTISEMENT  Comments  For the latest food news, health tips and recipes, like us on Facebook or follow us on Twitter and YouTube.Tags:  Spoon Fries  Viral NewsSpoon Shaped French Fries"
   },
   {
     id: 65,
-    title: '',
-    post_date: '',
+    title: 'Chicken 65 Ranked Among "10 Best Fried Chicken Dishes" In The World',
+    post_date: 'August 2 2023',
     genre: 'Food',
-    ref: '',
-    thumb: '',
-    description: "",
-    detail: ""
+    ref: 'https://food.ndtv.com/news/chicken-65-ranked-among-10-best-fried-chicken-dishes-in-the-world-4264980',
+    thumb: 'https://c.ndtvimg.com/2023-08/7ahcvi7g_chicken-65_625x300_03_August_23.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350',
+    description: "Chicken 65 has been featured on the list of the World's Top 10 Fried Chicken Dishes, released by TasteAtlas recently.",
+    detail: "Chicken meals are a sure shot route to a non-vegetarian's heart. And when it is about fried chicken, the success rate is quite high. What's better than a crispy crust that cracks on a bite and then gives way to flavourful juicy flesh? Crispy fried chicken is popular across the world, and every region has its own way of preparing this indulgence. TasteAtlas, a popular food guide, recently released its list of the “10 Best Fried Chicken Dishes” in the world. Guess who bagged the top spot in this prestigious list? It is Indonesia with its decadent ayam goreng, which has scored 4.6 stars out of 5. Indonesia surely has some amazing fried chicken dishes as the country also occupied the sixth position on the list. But hold on, there's a delicacy from India as well! The much-loved Chicken 65 has made the country proud. Garnering 4.3 stars, this dish was ranked 10th on the list by TasteAtlas.  Notably, Indonesia's ayam goreng was followed by Taiwanese popcorn chicken with 4.5 stars. On the “10 Best fried chicken” list, the majority of the dishes scored 4.4 stars. The delectable American-style fried chicken sits in third place with 4.4 stars. Next, we have China's crispy fried chicken with 4.4 stars from its Guangdong province. Dishes like chicken Kyiv from Ukraine, ayam penyet from Indonesia's East Java, pozharskaya kotleta from Russia and backhendl from Austria's Vienna also bagged 4.4 stars. The American-style hot chicken from USA's Nashville has occupied the ninth spot with 4.3 stars.  In another post, TasteAtlas elaborated on Indonesia's beloved fried chicken dish ayam goreng. Talking about its preparation, they wrote, “In its basic form, Indonesian-style fried chicken consists of chicken cuts, preferably bone-in pieces such as thighs and drumsticks, which are marinated in spices, then shortly braised before being fried until golden and crispy.” Indonesian-style fried chicken can be relished individually as a snack or can be paired up with rice, fresh vegetables and salads.Which is your favourite fried chicken dish? Let us know in the comments below."
+  },
+  {
+    id: 66,
+    title: "",
+    post_date:"",
+    genre:"",
+    ref:"",
+    thumb:"",
+    description:"",
+    detail:""
+  },
+  {
+    id: 67,
+    title: "",
+    post_date:"",
+    genre:"",
+    ref:"",
+    thumb:"",
+    description:"",
+    detail:""
+  },
+  {
+    id: 68,
+    title: "",
+    post_date:"",
+    genre:"",
+    ref:"",
+    thumb:"",
+    description:"",
+    detail:""
+  },
+  {
+    id: 69,
+    title: "",
+    post_date:"",
+    genre:"",
+    ref:"",
+    thumb:"",
+    description:"",
+    detail:""
+  },
+  {
+    id: 70,
+    title: "",
+    post_date:"",
+    genre:"",
+    ref:"",
+    thumb:"",
+    description:"",
+    detail:""
   },
   
 ];

@@ -1,7 +1,7 @@
 /* ----------------Home first Images Container------------------  */
 .thumb-cont {
   margin-top: 40px;
-  height: 80vh;
+  height: 500px;
   /* border: 1px solid black; */
   border-radius: 10px;
   display: grid;
@@ -24,7 +24,7 @@
 .main-img {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 500px;
   justify-content: flex-end;
   background-size: cover;
   border-radius: 10px;
@@ -52,7 +52,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 39vh;
+  height: 242px;
   border-radius: 10px;
   grid-column: 2/3;
   color: #ffffff;
@@ -263,7 +263,7 @@
 
 /* -----------------Advertise-------------- */
 .rs-ad-container {
-  height: 90vh;
+  height: 583px;
   width: 30%;
   float: right;
   display: flex;
@@ -396,7 +396,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 39vh;
+  height: 250px;
   border-radius: 10px;
   grid-column: 2/3;
   color: #ffffff;
@@ -478,6 +478,33 @@
   height: 13px;
 }
 
+@media screen and (max-width: 900px) {
+  .ls-sub-text-cont{
+    padding: 0 15% 0 20px;
+  }
+  .ls-sub-img{
+    width: 20vw;
+  }
+  .ls-first{
+    height: 170px;
+  }
+  .ls-sub-cont{
+    height: 140px;
+  }
+  .ls-p-container{
+    height: 56px;
+    -webkit-line-clamp: 3;
+  }
+  .rs-ad-container{
+    height: 50vw;
+  }
+  .ad{
+    width: 230px;
+  }
+  .main-img2{
+    height: 42vw;
+  }
+}
 @media screen and (max-width: 500px) {
   .thumb-cont {
     display: none;

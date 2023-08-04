@@ -14,9 +14,9 @@ import rightArrow from "../assets/arrow-1.svg";
 import ImageSlider from "../components/ImageSlider";
 import Advertise from "../components/Advertise";
 
-export function generateRandomNumbers(n) {
+export function generateRandomNumbers(n, length) {
   const min = 1;
-  const max = 60;
+  const max = length-2;
   const randomNumbers = [];
 
   for (let i = 0; i < n; i++) {
@@ -33,9 +33,9 @@ export const handleLink = () => {
 
 const Home = () => {
   const data = useContext(ContextData);
-  const first3_cover = generateRandomNumbers(3);
-  const latest_tile = generateRandomNumbers(3);
-  const latest_articles = generateRandomNumbers(4);
+  const first3_cover = generateRandomNumbers(3, data.length);
+  const latest_tile = generateRandomNumbers(3, data.length);
+  const latest_articles = generateRandomNumbers(4,data.length);
 
   return (
     <>
