@@ -16,7 +16,7 @@ import Advertise from "../components/Advertise";
 
 export function generateRandomNumbers(n, length) {
   const min = 1;
-  const max = length-2;
+  const max = length - 2;
   const randomNumbers = [];
 
   for (let i = 0; i < n; i++) {
@@ -35,7 +35,7 @@ const Home = () => {
   const data = useContext(ContextData);
   const first3_cover = generateRandomNumbers(3, data.length);
   const latest_tile = generateRandomNumbers(3, data.length);
-  const latest_articles = generateRandomNumbers(4,data.length);
+  const latest_articles = generateRandomNumbers(4, data.length);
 
   return (
     <>
@@ -63,7 +63,7 @@ const Home = () => {
         )}
       </div>
       <div className="image-slider-cont">
-        <ImageSlider slides={data.slice(0,3)} />
+        <ImageSlider slides={data.slice(0, 3)} />
       </div>
 
       <Subtitle title="The Latest" />
@@ -113,7 +113,7 @@ const Home = () => {
         </div>
       </div>
 
-      <Advertise/>
+      <Advertise />
       <div className="rs-tposts-container">
         <Subtitle title={"Top Posts"} />
         <TPRightTile
