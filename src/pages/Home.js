@@ -13,26 +13,12 @@ import downArrow from "../assets/arrow.svg";
 import rightArrow from "../assets/arrow-1.svg";
 import ImageSlider from "../components/ImageSlider";
 import Advertise from "../components/Advertise";
-
-export function generateRandomNumbers(n, length) {
-  const min = 1;
-  const max = length - 2;
-  const randomNumbers = [];
-
-  for (let i = 0; i < n; i++) {
-    const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-    randomNumbers.push(randomNumber);
-  }
-  return randomNumbers;
-}
-
-export const handleLink = () => {
-  // Scroll to the top of the page
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-};
+import { generateRandomNumbers } from "../components/HelperFunctions";
 
 const Home = () => {
   const data = useContext(ContextData);
+
+  //array of random indexes
   const first3_cover = generateRandomNumbers(3, data.length);
   const latest_tile = generateRandomNumbers(3, data.length);
   const latest_articles = generateRandomNumbers(4, data.length);
@@ -63,7 +49,7 @@ const Home = () => {
         )}
       </div>
       <div className="image-slider-cont">
-        <ImageSlider slides={data.slice(0, 3)} />
+        <ImageSlider slides={first3_cover} />
       </div>
 
       <Subtitle title="The Latest" />

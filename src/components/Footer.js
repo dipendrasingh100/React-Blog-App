@@ -5,11 +5,12 @@ import { faSquareFacebook, faSquareInstagram, faSquareTwitter, faLinkedin } from
 import { Link } from 'react-router-dom';
 
 import { faCircleMinus, faCirclePlus, faEnvelope, faMobileScreenButton } from '@fortawesome/free-solid-svg-icons';
-import { handleLink } from '../pages/Home';
+import { handleLink } from './HelperFunctions';
 
 const Footer = () => {
     const [res, setRes] = useState(false)
     const [ser, setSer] = useState(false)
+
     return (
         <footer className='footer-container'>
             <hr />
@@ -56,7 +57,7 @@ const Footer = () => {
                         <div style={{ width: '100%' }} className="mb-2 overflow-hidden rounded mx-auto hover:shadow">
                             <div className="flex cursor-pointer h-12 items-center justify-between px-4 text-dark" onClick={() => { setSer(!ser) }}>
                                 <p>Services</p>
-                                <FontAwesomeIcon icon={ ser ? faCircleMinus: faCirclePlus } size="lg" />
+                                <FontAwesomeIcon icon={ser ? faCircleMinus : faCirclePlus} size="lg" />
                             </div>
                             <div className={`flex flex-col text-gray gap-3 close ${ser && 'open'}`}>
                                 <Link to={'/technology'} onClick={handleLink}><span className='text-gray'>Technology</span></Link>
@@ -69,7 +70,7 @@ const Footer = () => {
                         <div style={{ width: '100%' }} className="mb-2 overflow-hidden rounded mx-auto hover:shadow">
                             <div className="flex cursor-pointer h-12 items-center justify-between px-4 text-dark" onClick={() => { setRes(!res) }}>
                                 <p>Resources</p>
-                                <FontAwesomeIcon icon={ res ? faCircleMinus: faCirclePlus } size="lg" />
+                                <FontAwesomeIcon icon={res ? faCircleMinus : faCirclePlus} size="lg" />
                             </div>
                             <div className={`flex flex-col text-gray gap-3 close ${res && 'open'}`} >
                                 <Link to={'/github'}><span className='text-gray'>Github</span></Link>
@@ -95,6 +96,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
         </footer>
     )
 }

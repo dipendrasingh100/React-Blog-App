@@ -1,0 +1,12 @@
+:root{
+    --header-bg-color:  #FFFFFF;
+    --header-color: #000000;
+    --burger-color: #adadad;
+    --navbar-hover-color: #908D8D;
+    --dot-border-color: #000000;
+    --dot-fill-color: #000000;
+    --cover-text-color: #FFFFFF;
+    --cover-bottom-line-color: #a3a1a1;
+    --cover-footer-color: #fcfcfc;
+    --title-line-color: #f08080;
+}

@@ -5,15 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
+  //state to maintain whether the hamburger icon is open or not
   const [isRotated, setIsRotated] = useState(false);
-  function handleBurger() {
-    setIsRotated(!isRotated)
-  }
 
-  function closeBurger() {
-    setIsRotated(false)
-  }
-  // document.querySelector(".navbar"). 
   return (
     <header>
       <div className="title-cont">
@@ -24,22 +18,19 @@ const NavBar = () => {
         <FontAwesomeIcon
           icon={faBars}
           size="xl"
-          className={`burger-icon ${isRotated ? 'burger-tn' : ''}`}
-          onClick={handleBurger}
+          className={`burger-icon ${isRotated && 'burger-tn'}`}
+          onClick={() => setIsRotated(!isRotated)}
         />
-        {/* <div className="get_started">
-          Get Started
-        </div> */}
       </div>
 
-      <nav className={`navbar ${isRotated ? 'active' : ''}`}>
+      <nav className={`navbar ${isRotated && 'active'}`}>
         <ul className="nav-links">
           <li>
             <NavLink
               to="/"
               style={({ isActive }) => ({
                 color: isActive ? "grey" : "black",
-              })} onClick={closeBurger}
+              })} onClick={() => setIsRotated(false)}
             >
               Home
             </NavLink>
@@ -49,7 +40,7 @@ const NavBar = () => {
               to="/bollywood"
               style={({ isActive }) => ({
                 color: isActive ? "grey" : "black",
-              })} onClick={closeBurger}
+              })} onClick={() => setIsRotated(false)}
             >
               Bollywood
             </NavLink>
@@ -59,7 +50,7 @@ const NavBar = () => {
               to="/technology"
               style={({ isActive }) => ({
                 color: isActive ? "grey" : "black",
-              })} onClick={closeBurger}
+              })} onClick={() => setIsRotated(false)}
             >
               Technology
             </NavLink>
@@ -69,7 +60,7 @@ const NavBar = () => {
               to="/hollywood"
               style={({ isActive }) => ({
                 color: isActive ? "grey" : "black",
-              })} onClick={closeBurger}
+              })} onClick={() => setIsRotated(false)}
             >
               Hollywood
             </NavLink>
@@ -79,7 +70,7 @@ const NavBar = () => {
               to="/fitness"
               style={({ isActive }) => ({
                 color: isActive ? "grey" : "black",
-              })} onClick={closeBurger}
+              })} onClick={() => setIsRotated(false)}
             >
               Fitness
             </NavLink>
@@ -89,7 +80,7 @@ const NavBar = () => {
               to="/food"
               style={({ isActive }) => ({
                 color: isActive ? "grey" : "black",
-              })} onClick={closeBurger}
+              })} onClick={() => setIsRotated(false)}
             >
               Food
             </NavLink>

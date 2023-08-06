@@ -18,7 +18,8 @@ function AppRoutes() {
           <>
             <NavBar2 />
             <DetailDesc />
-          </>} />
+          </>
+        } />
 
         <Route path="*" element={
           <>

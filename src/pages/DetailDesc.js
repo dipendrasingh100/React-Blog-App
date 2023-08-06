@@ -1,14 +1,14 @@
-import React, { useContext, useState } from "react";
 import "../css/detail_desc.css";
 import rythm from "../assets/rythm.svg";
 import share from "../assets/share.svg";
 import avtar from "../assets/Mask Group 16.png";
+import React, { useContext, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { ContextData } from "../components/ContextData";
 import Suggestion from "../components/Suggestion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareFacebook, faSquareInstagram, faSquareTwitter, faSquareYoutube } from "@fortawesome/free-brands-svg-icons";
-import { handleLink } from "./Home";
+import { handleLink } from '../components/HelperFunctions';
 
 const DetailDesc = () => {
   const navigate = useNavigate()

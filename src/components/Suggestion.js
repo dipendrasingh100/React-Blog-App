@@ -4,7 +4,7 @@ import "../css/detail_desc.css"
 import "../css/home.css"
 import { ContextData } from './ContextData'
 import avtar from "../assets/Mask Group 16.png";
-import { handleLink } from '../pages/Home'
+import { handleLink } from './HelperFunctions';
 import { shuffleArray } from './HelperFunctions'
 
 const Suggestion = (props) => {

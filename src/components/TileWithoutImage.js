@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { handleLink } from "../pages/Home";
+import { handleLink } from './HelperFunctions';
 
 const TileWithoutImage = (props) => {
   return (

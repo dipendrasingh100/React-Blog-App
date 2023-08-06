@@ -14,6 +14,7 @@ const MainCover = (props) => {
         <div className="tile-foot fcover">
           <span>{props.genre}</span> / {props.p_date}
         </div>
+        <div className="bottom-line-cover"></div>
       </Link>
     </div>
   );
