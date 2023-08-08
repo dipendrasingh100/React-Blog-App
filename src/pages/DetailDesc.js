@@ -68,7 +68,9 @@ const DetailDesc = () => {
                 </p>
               </div>
             ))}
-            <span onClick={() => display === "none" ? setDisplay("block") : setDisplay("none")} style={{ color: "blue", cursor: "pointer" }}>{display === "none" ? "read more..." : "read less..."}</span>
+            <span onClick={() => display === "none" ? setDisplay("block") : setDisplay("none")} style={{ color: "blue", cursor: "pointer" }}>
+              {display === "none" ? "read more..." : "read less..."}
+            </span>
           </div>
           <div className="tag_block">
             <span>React</span>
