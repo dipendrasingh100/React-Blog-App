@@ -4,7 +4,6 @@ import Cover from "../components/Cover";
 import Subtitle from "../components/Subtitle";
 import TileWithImage from "../components/TileWithImage";
 import { ContextData } from "../components/ContextData";
-import MainCover from "../components/MainCover";
 import LeftTile from "../components/LeftTile";
 import MainCover2 from "../components/MainCover2";
 import TileWithoutImage from "../components/TileWithoutImage";
@@ -26,26 +25,19 @@ const Home = () => {
   return (
     <>
       <div className="thumb-cont">
-        <MainCover
-          id={data[first3_cover[0]].id}
-          title={data[first3_cover[0]].title}
-          p_date={data[first3_cover[0]].post_date}
-          image={data[first3_cover[0]].thumb}
-          genre={data[first3_cover[0]].genre}
-        />
         {first3_cover.map(
           (value, index) =>
-            index !== 0 && (
-              <Cover
-                key={index}
-                cls={`img${index}`}
-                id={data[value].id}
-                title={data[value].title}
-                p_date={data[value].post_date}
-                image={data[value].thumb}
-                genre={data[value].genre}
-              />
-            )
+          (
+            <Cover
+              key={index}
+              ind={index}
+              id={data[value].id}
+              title={data[value].title}
+              p_date={data[value].post_date}
+              image={data[value].thumb}
+              genre={data[value].genre}
+            />
+          )
         )}
       </div>
       <div className="image-slider-cont">
@@ -71,28 +63,19 @@ const Home = () => {
       <Subtitle title={"Latest Articles"} />
 
       <div className="ls-container">
-        <LeftTile
-          cls={"ls-first"}
-          id={data[latest_articles[0]].id}
-          title={data[latest_articles[0]].title}
-          image={data[latest_articles[0]].thumb}
-          desc={data[latest_articles[0]].description}
-          p_date={data[latest_articles[0]].post_date}
-          genre={data[latest_articles[0]].genre}
-        />
-        {latest_articles.map(
-          (value, index) =>
-            index !== 0 && (
-              <LeftTile
-                key={index}
-                id={data[value].id}
-                title={data[value].title}
-                image={data[value].thumb}
-                desc={data[value].description}
-                p_date={data[value].post_date}
-                genre={data[value].genre}
-              />
-            )
+        {latest_articles.map((value, index) =>
+        (
+          <LeftTile
+            key={index}
+            idx={index}
+            id={data[value].id}
+            title={data[value].title}
+            image={data[value].thumb}
+            desc={data[value].description}
+            p_date={data[value].post_date}
+            genre={data[value].genre}
+          />
+        )
         )}
         <div className="more">
           <img src={downArrow} alt="not found" /> <p>LOAD MORE</p>
@@ -102,26 +85,18 @@ const Home = () => {
       <Advertise />
       <div className="rs-tposts-container">
         <Subtitle title={"Top Posts"} />
-        <TPRightTile
-          cls={"tp-first"}
-          id={data[latest_articles[0]].id}
-          title={data[latest_articles[0]].title}
-          image={data[latest_articles[0]].thumb}
-          p_date={data[latest_articles[0]].post_date}
-          genre={data[latest_articles[0]].genre}
-        />
-        {latest_articles.map(
-          (value, index) =>
-            index !== 0 && (
-              <TPRightTile
-                key={index}
-                id={data[value].id}
-                title={data[value].title}
-                image={data[value].thumb}
-                p_date={data[value].post_date}
-                genre={data[value].genre}
-              />
-            )
+        {latest_articles.map((value, index) =>
+        (
+          <TPRightTile
+            key={index}
+            idx={index}
+            id={data[value].id}
+            title={data[value].title}
+            image={data[value].thumb}
+            p_date={data[value].post_date}
+            genre={data[value].genre}
+          />
+        )
         )}
       </div>
       <div className="ls-img-container">

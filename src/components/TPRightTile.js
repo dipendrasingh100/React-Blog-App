@@ -5,7 +5,7 @@ import { handleLink } from './HelperFunctions';
 const TPRightTile = (props) => {
   return (
     <Link to={`/${props.genre.toLowerCase()}/${props.id}`}>
-      <div className={`rs-sub-cont ${props.cls}`} onClick={handleLink}>
+      <div className={`rs-sub-cont ${props.idx === 0 && "tp-first"}`} onClick={handleLink}>
         <img className="rs-sub-img" src={props.image} alt="not found" />
         <div className="rs-sub-text-cont">
           <div className="rs-subheading-container">

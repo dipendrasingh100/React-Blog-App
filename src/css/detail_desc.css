@@ -107,7 +107,7 @@
 .dd-tile {
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 103%;
 }
 
 .dd-tile:hover {

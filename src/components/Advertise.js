@@ -1,10 +1,12 @@
 import React from "react";
 import "../css/home.css"
+import ad from '../assets/giphy-ad.gif'
+
 const Advertise = () => {
   return (
     <div className="rs-ad-container">
       <div className="ad-title" style={{ height: '100%' }}>
-        <iframe src="https://giphy.com/embed/5CD7FIkhOi9LZsueU6" style={{ width: "328px", height: "100%", border:'none' }} title="ad"></iframe>
+        <img src={ad} style={{ width: "27vw", height: "100%", border:'none', maxWidth:"328px" }} alt="ad"></img>
       </div>
     </div>
   );

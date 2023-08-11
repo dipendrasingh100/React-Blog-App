@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Cover = (props) => {
   return (
     <div
-      className={`cover ${props.cls === "img1" ? "img1" : "img2"}`}
+      className={`cover ${props.ind === 0 ? "main-img" : ""}`}
       style={{ backgroundImage: `url(${props.image})` }}
     >
       <Link to={`/${props.genre.toLowerCase()}/${props.id}`}>

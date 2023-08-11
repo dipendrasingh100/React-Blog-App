@@ -5,7 +5,7 @@ const LeftTile = (props) => {
   return (
     <div>
       <Link to={`/${props.genre.toLowerCase()}/${props.id}`}>
-        <div className={`ls-sub-cont ${props.cls}`}>
+        <div className={`ls-sub-cont ${props.idx===0 && 'ls-first'}`}>
           <div><img className="ls-sub-img" src={props.image} alt="not found" /></div>
           <div className="ls-sub-text-cont">
             <div className="ls-subheading-container">

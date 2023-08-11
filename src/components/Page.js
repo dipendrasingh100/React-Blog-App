@@ -27,56 +27,40 @@ const Page = (props) => {
     <>
       <div className="ls-container">
         <Subtitle title={props.category} />
-        <LeftTile
-          cls={"ls-first"}
-          id={data[0].id}
-          title={data[0].title}
-          image={data[0].thumb}
-          desc={data[0].description}
-          p_date={data[0].post_date}
-          genre={data[0].genre}
-        />
         {data.map(
           (value, index) =>
-            index !== 0 && (
-              <LeftTile
-                key={index}
-                id={value.id}
-                title={value.title}
-                image={value.thumb}
-                desc={value.description}
-                p_date={value.post_date}
-                genre={value.genre}
-              />
-            )
+          (
+            <LeftTile
+              key={index}
+              idx={index}
+              id={value.id}
+              title={value.title}
+              image={value.thumb}
+              desc={value.description}
+              p_date={value.post_date}
+              genre={value.genre}
+            />
+          )
         )}
-
         <div className="more">
           <img src={downArrow} alt="not found" /> <p>LOAD MORE</p>
         </div>
       </div>
       <div className="rs-tposts-container" style={{ marginTop: "1.5%" }}>
         <Subtitle title={"Top Posts"} />
-        <TPRightTile
-          cls={"tp-first"}
-          id={top_posts[0].id}
-          title={top_posts[0].title}
-          image={top_posts[0].thumb}
-          p_date={top_posts[0].post_date}
-          genre={top_posts[0].genre}
-        />
         {top_posts.map(
           (value, index) =>
-            index !== 0 && (
-              <TPRightTile
-                key={index}
-                id={value.id}
-                title={value.title}
-                image={value.thumb}
-                p_date={value.post_date}
-                genre={value.genre}
-              />
-            )
+          (
+            <TPRightTile
+              key={index}
+              idx={index}
+              id={value.id}
+              title={value.title}
+              image={value.thumb}
+              p_date={value.post_date}
+              genre={value.genre}
+            />
+          )
         )}
       </div>
       <Advertise />
