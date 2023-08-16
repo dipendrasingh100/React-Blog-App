@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/home.css"
-import ad from '../assets/giphy-ad.gif'
+// import ad from '../assets/giphy-ad.gif'
 
 const Advertise = () => {
   return (
