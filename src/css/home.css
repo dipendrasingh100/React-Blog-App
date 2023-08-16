@@ -248,7 +248,7 @@
 
 /* -----------------Advertise-------------- */
 .rs-ad-container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 583px;
   width: 30%;
   float: right;
