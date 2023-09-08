@@ -3,7 +3,7 @@ import React from 'react'
 import axios from "axios";
 
 export const ContextDataProvider = createContext();
-const baseURL = "http://localhost:8000/"
+const baseURL = "https://blog-api-07t5.onrender.com/"
 
 
 const ContextData = ({ children }) => {
