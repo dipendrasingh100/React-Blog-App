@@ -4,7 +4,7 @@ import share from "../assets/share.svg";
 import avtar from "../assets/Mask Group 16.png";
 import React, { useContext, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { ContextData } from "../components/ContextData";
+import { ContextDataProvider } from "../components/ContextData";
 import Suggestion from "../components/Suggestion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareFacebook, faSquareInstagram, faSquareTwitter, faSquareYoutube } from "@fortawesome/free-brands-svg-icons";
@@ -14,7 +14,7 @@ const DetailDesc = () => {
   const navigate = useNavigate()
   const [display, setDisplay] = useState("none")
   const [, , id] = useLocation().pathname.split("/")
-  const data = useContext(ContextData).filter(item => (item.id === parseInt(id)))[0]
+  const data = useContext(ContextDataProvider).filter(item => (item.id === parseInt(id)))[0]
   const para1 = data.detail.split("  ").slice(0, 2)
   const para2 = data.detail.split("  ").slice(2)
 

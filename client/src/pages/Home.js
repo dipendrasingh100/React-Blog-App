@@ -3,7 +3,7 @@ import "../css/home.css";
 import Cover from "../components/Cover";
 import Subtitle from "../components/Subtitle";
 import TileWithImage from "../components/TileWithImage";
-import { ContextData } from "../components/ContextData";
+import { ContextDataProvider } from "../components/ContextData";
 import LeftTile from "../components/LeftTile";
 import MainCover2 from "../components/MainCover2";
 import TileWithoutImage from "../components/TileWithoutImage";
@@ -15,7 +15,7 @@ import Advertise from "../components/Advertise";
 import { generateRandomNumbers } from "../components/HelperFunctions";
 
 const Home = () => {
-  const data = useContext(ContextData);
+  const data = useContext(ContextDataProvider);
 
   //array of random indexes
   const first3_cover = generateRandomNumbers(3, data.length);

@@ -1,10 +1,10 @@
 import React, { useEffect, useState, useContext } from 'react'
 import "../css/image_slider.css"
 import { Link } from 'react-router-dom'
-import { ContextData } from './ContextData'
+import { ContextDataProvider } from './ContextData'
 
 const ImageSlider = ({ slides }) => {
-    const data = useContext(ContextData);
+    const data = useContext(ContextDataProvider);
     const [currentIndex, setCurrentIndex] = useState(0)
 
     useEffect(() => {

@@ -2,13 +2,13 @@ import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import "../css/detail_desc.css"
 import "../css/home.css"
-import { ContextData } from './ContextData'
+import { ContextDataProvider } from './ContextData'
 import avtar from "../assets/Mask Group 16.png";
 import { handleLink } from './HelperFunctions';
 import { shuffleArray } from './HelperFunctions'
 
 const Suggestion = (props) => {
-    let data = useContext(ContextData).filter(item => (item.genre === props.category));
+    let data = useContext(ContextDataProvider).filter(item => (item.genre === props.category));
     data = shuffleArray(data).slice(0, 3)
     return (
         <div className='dd-tile-container'>

@@ -2,14 +2,14 @@ import React, { useContext } from "react";
 import "../css/home.css";
 import Subtitle from "./Subtitle";
 import TPRightTile from "./TPRightTile";
-import { ContextData } from "./ContextData";
+import { ContextDataProvider } from "./ContextData";
 import LeftTile from "./LeftTile";
 import downArrow from "../assets/arrow.svg";
 import Advertise from "./Advertise";
 import { shuffleArray } from "./HelperFunctions";
 
 const Page = (props) => {
-  const cdata = useContext(ContextData)
+  const cdata = useContext(ContextDataProvider)
     .filter((item) => item.genre === props.category)
     .slice(0, 7);
   let data = shuffleArray(cdata)

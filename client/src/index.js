@@ -5,14 +5,17 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import AppRoutes from "./AppRoutes";
 import Footer from "./components/Footer";
+import ContextData from "./components/ContextData";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <AppRoutes />
-      <Footer />
-    </BrowserRouter>
+    <ContextData>
+      <BrowserRouter>
+        <AppRoutes />
+        <Footer />
+      </BrowserRouter>
+    </ContextData>
   </React.StrictMode>
 );
 
